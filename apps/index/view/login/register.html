@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link type="text/css" href="__static__/css/login.css" rel="stylesheet" />
+</head>
+<body>
+<div class="top">
+    <img src="__static__/img/LOGO.png" class="logo"/>
+    <img src="__static__/img/close.png" class="close" />
+</div>
+<div class="main_word">
+    <p>注册</p>
+    已有账号名密码？<span>登录</span>
+</div>
+<div class="main_list">
+    <div class="register_list_left">
+        <li><p class="list_2">邮箱</p>
+            <input type="text" name="email" class="list_text"/></li>
+        <li><p class="list_2">再输入一次邮箱</p>
+            <input type="text" name="email" class="list_text"/></li>
+        <li><p class="list_2">密码</p>
+            <input type="text" name="password" class="list_text"/></li>
+        <li><p class="list_2">再输入一次密码</p>
+            <input type="text" name="password" class="list_text"/></li>
+        <br/><br/>
+        <div class="regis">
+
+        </div>
+    </div>
+    <div class="main_list_right">
+        <li id="facebook">facebook账号登录</li>
+        <li id="google">google账号登录</li>
+    </div>
+</div>
+</body>
+</html>
+<script src="__static__/js/jquery.min.js"></script>
+<script>
+    $('.register_list_left li').click(function(){
+        $('.list_text').css('height','0px;');
+        $('.list_2').css('font-size','24px;');
+        $(this).find('.list_2').css('font-size','18px');
+        $(this).find('.list_text').css('height','40px');
+    })
+</script>
