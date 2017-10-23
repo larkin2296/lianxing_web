@@ -1,15 +1,37 @@
 <!-- 标题栏-->
+<link type="text/css" href="__static__/css/top.css" rel="stylesheet" />
 <div class="top">
     <span>HealthCareChain</span>
     <!-- 导航栏 -->
     <div class="top_meau">
         <ul>
-            <li>首页</li>
-            <li>产品介绍</li>
-            <li>媒体资讯</li>
-            <li>区块链</li>
-            <li>关于我们</li>
-            <li>论坛</li>
+            <li><a href="__back__">首页</a></li>
+            <li class="product_li">
+                产品介绍
+                <div class='pro_more'>
+                    <ul>
+                        <li class='more_li'>
+                            <a href='__back__/index.php/index/project_show/index'>行业解决方案</a>
+                        </li>
+                        <li class='more_li'>
+                            <a href='__back__/index.php/index/project_show/pro_health_app'>个人健康应用</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">媒体资讯</a></li>
+            <li><a href="">区块链</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="__back__/index.php/index/login/index">论坛</a></li>
         </ul>
     </div>
 </div>
+<script src="__static__/js/jquery.min.js" ></script>
+<script>
+    $('.product_li').mouseover(function(){
+        $('.pro_more').css('display','block');
+    })
+    $('.product_li').mouseout(function(){
+        $('.pro_more').css('display','none');
+    })
+</script>

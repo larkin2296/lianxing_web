@@ -215,7 +215,6 @@
     }
     $(window).scroll(function() {
         var top = $(document).scrollTop();
-        console.log(top);
         if(top >= 1850 ){
             var y=$(".show_main").position().top;
             if(y<=2807){
@@ -238,5 +237,8 @@
             $('.show_main').css('top', '1850px');
         }
     });
+    $('.luntan_button .but_1').click(function(){
+        location.href = '__back__/index.php/index/login';
+    })
 
 </script>

@@ -9,34 +9,7 @@ ul{
     margin:0px;
     padding:0px;
 }
-.top{
-    width:1920px;
-    height:80px;
-    margin:0 auto;
-    background-color: #000000;
-}
-.top span{
-    font-size:30px;
-    font-weight: 700;
-    color:#3068FB;
-    margin-left:8%;
-    line-height:80px;
-}
-.top_meau{
-    float:right;
-    width:40%;
-    height:80px;
-    color:#7D7D7D;
-}
-.top_meau li{
-    list-style: none;
-    float:left;
-    width:16.6%;
-    height:80px;
-    line-height:80px;
-    text-align: center;
-    cursor: pointer;
-}
+
 /*Part1*/
 .center_pic{
     width:1920px;

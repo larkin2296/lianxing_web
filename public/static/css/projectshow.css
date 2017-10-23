@@ -11,34 +11,7 @@ p{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-.top{
-    width:1920px;
-    height:80px;
-    margin:0 auto;
-    background-color: #000000;
-}
-.top span{
-    font-size:30px;
-    font-weight: 700;
-    color:#3068FB;
-    margin-left:8%;
-    line-height:80px;
-}
-.top_meau{
-    float:right;
-    width:40%;
-    height:80px;
-    color:#7D7D7D;
-}
-.top_meau li{
-    list-style: none;
-    float:left;
-    width:16.6%;
-    height:80px;
-    line-height:80px;
-    text-align: center;
-    cursor: pointer;
-}
+
 .bottom{
     width:1920px;
     height:536px;
@@ -71,6 +44,10 @@ p{
     color: #D4D4D4;
     letter-spacing: 0;
     line-height:33px;
+    position: relative;
+    left:0px;
+    top:0px;
+    z-index:99;
 }
 .content_fir p{
     font-family: PingFangSC-Light;
@@ -176,13 +153,17 @@ p{
     width:1920px;
     height:1280px;
     background-color:#2D2D39;;
-
+    position: relative;
+    left:0px;
+    top:0px;
+    z-index:99;
 }
 .fiv_list{
     width:700px;
     height:600px;
     margin-left:611px;
     padding-top:200px;
+
 }
 .content_fiv .fiv_list_left{
     width:300px;
@@ -249,6 +230,7 @@ p{
     height:700px;
     right:0px;
     top:240px;
+    z-index:1;
     background:url('../img/pro_right_1.png') no-repeat;
 }
 .right_pic_cover_1{
@@ -267,7 +249,7 @@ p{
     width: 100%;
     height: 100%;
     position: relative;
-    z-index:10;
+    z-index:50;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     background: url("../img/pro_right_2.png") no-repeat;
@@ -279,8 +261,8 @@ p{
     left: 0;
     right: 0;
     bottom: 0;
-    -webkit-transform: translateY(1276px);
-    transform: translateY(1276px);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
 }
 .right_pic_2{
     display: block;

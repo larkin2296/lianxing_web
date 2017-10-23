@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
+    <script src="__static__/js/jquery.min.js" ></script>
     <link type="text/css" href="__static__/css/login.css" rel="stylesheet" />
 </head>
 <body>
     <div class="top">
-        <img src="__static__/img/LOGO.png" class="logo"/>
+        <img src="__static__/img/LOGO.png" class="logo" style="cursor: pointer;"/>
         <img src="__static__/img/close.png" class="close" />
     </div>
     <div class="main_word">
         <p>登录</p>
-        新用户首次登录？<span>注册</span>
+        新用户首次登录？<span style="cursor: pointer;">注册</span>
     </div>
     <div class="main_list">
         <div class="main_list_left">
@@ -40,3 +41,11 @@
     </div>
 </body>
 </html>
+<script>
+    $('.logo').click(function(){
+        location.href = '__back__';
+    })
+    $('.main_word span').click(function(){
+        location.href = '__back__/index.php/index/login/register';
+    })
+</script>

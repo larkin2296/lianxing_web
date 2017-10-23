@@ -3,27 +3,37 @@ $(function(){
     $(window).scroll(function() {
         var top = $(document).scrollTop();
         //console.log(top);
-        if(top>1700 && top<2978){
+        console.log($('.right_pic_1').css("transform"));
+        if(top>1700 ){
             $('.right_pic_cover_1').css({
-                transform: 'translateY(' + (-top+1700) + 'px)',
+                transform: 'translateY(' + (-(top-1700)) + 'px)',
                 transition: 'none'
             });
             $('.right_pic_1').css({
                 transform: 'translateY(' + ((top-1700)) + 'px)',
                 transition: 'none'
             });
-            $('.right_pic_2').css('opacity','0');
-        }else if (top>2978){
-            $('.right_pic_2').css('opacity','1');
-            $('.right_pic_cover_2').css({
-                transform: 'translateY(' + (1276-(top-2978)) + 'px)',
-                transition: 'none'
-            });
-            $('.right_pic_2').css({
-                transform: 'translateY(' + (-1276+(top-2978)) + 'px)',
-                transition: 'none'
-            });
+            if (top>2978){
+                    $('.right_pic_cover_2').css({
+                        transform: 'translateY(' + (-(top-2978)) + 'px)',
+                        transition: 'none'
+                    });
+                    $('.right_pic_2').css({
+                        transform: 'translateY(' + ((top-2978)) + 'px)',
+                        transition: 'none'
+                    });
+                }
         }
+        // else if (top>2978){
+        //     $('.right_pic_cover_2').css({
+        //         transform: 'translateY(' + (-(top-2978)) + 'px)',
+        //         transition: 'none'
+        //     });
+        //     $('.right_pic_2').css({
+        //         transform: 'translateY(' + ((top-2978)) + 'px)',
+        //         transition: 'none'
+        //     });
+        // }
 
     })
 

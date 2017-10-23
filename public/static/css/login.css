@@ -55,6 +55,7 @@ p{
     width:581px;
     height:380px;
     border-right:1px solid #D8D8D8;;
+    list-style: none;
 }
 .main_list_left p{
     font-family: PingFangSC-Light;

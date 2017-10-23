@@ -7,12 +7,12 @@
 </head>
 <body>
 <div class="top">
-    <img src="__static__/img/LOGO.png" class="logo"/>
+    <img src="__static__/img/LOGO.png" class="logo" style="cursor: pointer;"/>
     <img src="__static__/img/close.png" class="close" />
 </div>
 <div class="main_word">
     <p>注册</p>
-    已有账号名密码？<span>登录</span>
+    已有账号名密码？<span style="cursor: pointer;">登录</span>
 </div>
 <div class="main_list">
     <div class="register_list_left">
@@ -43,5 +43,11 @@
         $('.list_2').css('font-size','24px;');
         $(this).find('.list_2').css('font-size','18px');
         $(this).find('.list_text').css('height','40px');
+    })
+    $('.logo').click(function(){
+        location.href = '__back__';
+    })
+    $('.main_word span').click(function(){
+        location.href = '__back__/index.php/index/login';
     })
 </script>
