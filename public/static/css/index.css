@@ -37,7 +37,7 @@ ul{
     position: absolute;
     top:312px;
     left:0px;
-    width:1969px;
+    width:1800px;
     height:773px;
     margin-left:100px;
     z-index:30;
@@ -102,6 +102,8 @@ ul{
     height:533px;
     background-color: #F0F0F0;
     box-shadow:0px 10px 20px #B8B8B8 ;
+    position: relative;
+    z-index:150;
 }
 .grey_word{
     width:1920px;

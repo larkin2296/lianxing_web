@@ -16,6 +16,8 @@ p{
     width:1920px;
     height:536px;
     background-color:#C9CBD2;
+    position:relative;
+    z-index:99;
 }
 .bottom li{
     list-style:none;
