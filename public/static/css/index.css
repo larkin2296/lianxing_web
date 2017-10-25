@@ -1,5 +1,6 @@
 html,body{
     width:100%;
+    min-width: 1640px;
     height:100%;
     margin:0px;
     padding:0px;
@@ -65,14 +66,13 @@ ul{
     /*display:none;*/
     position:absolute;left:0px;top:8.4%;
     width:100%;
-    min-width:1000px;
+    min-width:1640px;
     height:auto;
     background-color: #4F7EFB;
     z-index: 99;
 }
 .center_word{
     width:100%;
-    min-width:1000px;
     height:75em;
     background-color: #4F7EFB;
     position:relative;left:0px;top:0px;
@@ -96,8 +96,8 @@ ul{
 }
 .grey_main{
     width:100%;
-    min-width:1000px;
-    height:33.5em;
+    min-width:1640px;
+    height:40.5em;
     background-color: #F0F0F0;
     box-shadow:0px 10px 20px #B8B8B8 ;
     position: relative;
@@ -126,8 +126,9 @@ ul{
     font-size: 100%;
 }
 
-
 .show_main{
+    width:100%;
+    min-width: 1640px;
     position: absolute;
     top:1850px;
     left:0px;
@@ -144,86 +145,86 @@ ul{
 }
 .htm_main_first{
     width:100%;
-    height:1140px;
-    margin-top:180px;
+    height:57em;
+    margin-top:9.5%;
 }
 .htm_main_first_fir{
     width:auto;
-    height:360px;
-    margin-left:240px;
-    line-height:43px;
+    height: 18em;
+    margin-left:12.5%;
+    line-height:220%;
 }
 .htm_main_first_sec{
-    margin-top:172px;
+    margin-top:9%;
     width:auto;
-    height:360px;
-    margin-left:240px;
-    line-height:43px;
+    height:18em;
+    margin-left:12.5%;
+    line-height:220%;
 }
 .htm_main_first_pic_1{
-    width:762px;
+    width:39.7%;
     position: absolute;
     top:346px;
-    left:960px;
+    left:50%;
 }
 .htm_main_first_pic_2{
-    width:762px;
+    width:39.7%;
     position: absolute;
     top:420px;
-    left:1104px;
+    left:57.5%;
 }
 .htm_main p{
     font-family: PingFangSC-Light;
-    font-size: 32px;
+    font-size: 170%;
     color: #000000;
 }
 
 .htm_main_sec_pic_1{
-    width:594px;
+    width:31%;
     position: absolute;
     top:1500px;
-    left:-112px;
+    left:-6%;
 }
 .htm_main_sec_pic_2{
-    width:430px;
+    width:22.5%;
     position: absolute;
     top:1391px;
-    left:102px;
+    left:5.3%;
 }
 .htm_main_sec_pic_3{
-    width:340px;
+    width:17.7%;
     position: absolute;
     top:1521px;
-    left:460px;
+    left:24%;
 }
 .htm_main_sec_word{
     width:auto;
-    margin-left:1010px;
-    line-height:43px;
-    margin-top:182px;
+    margin-left:52.6%;
+    line-height:220%;
+    margin-top:9.5%;
 }
 .htm_main_thr{
-    margin-top:624px;
+    margin-top:32.5%;
 }
 .htm_main_thr_word{
-    margin-left:102px;
-    line-height:43px;
+    margin-left:12.5%;
+    line-height:220%;
 }
 .htm_main_thr_pic_1{
-    width:814px;
+    width:42.4%;
     position: absolute;
-    top:2309px;
-    left:1033px;
+    top:2509px;
+    left:53.8%;
 }
 .htm_main_thr_pic_2{
-    width:800px;
+    width:41.7%;
     position: absolute;
     top:2776px;
-    left:631px;
+    left:32.9%;
 }
 /*Part3*/
 .luntan{
-    width:1920px;
+    width:100%;
     height:260px;
     margin-top:680px;
     background-color: red;
@@ -284,26 +285,3 @@ ul{
     margin-left:67px;
 }
 
-.bottom{
-    margin-top:40px;
-    width:1920px;
-    height:536px;
-    background-color:#C9CBD2;
-}
-.bottom li{
-    list-style:none;
-    width:430px;
-    height:420px;
-    float:left;
-    margin-left:200px;
-    margin-top:40px;
-    font-size: 14px;
-    color: #757575;
-    letter-spacing: 0;
-    line-height:50px;
-}
-.bottom li p{
-    font-size: 18px;
-    color: #000000;
-    letter-spacing: 0;
-}
