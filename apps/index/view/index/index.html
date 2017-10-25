@@ -185,6 +185,20 @@
 </body>
 </html>
 <script>
+    var html = document.documentElement;
+
+    // 封装一个函数
+    function fontS(){
+        // 获取 html 的宽
+        var hW = html.offsetWidth;
+        // 计算字体大小，这里是 html 宽的五十分之一
+        var hS = hW / 120;
+        // 给刚开始时的 html 设置字体大小
+        html.style.fontSize = hS + "px";
+    }
+    // 当窗口大小改变时执行函数
+    fontS();
+    window.onresize = function(){fontS();}
     $(function() {
         $(window).scrollTop(0);
         $('body').animate({scrollTop:'0'},500);
@@ -214,27 +228,31 @@
         console.log(top);
     }
     $(window).scroll(function() {
+        var x = document.body.clientHeight;
         var top = $(document).scrollTop();
-        if(top >= 1850 ){
+//        console.log(x);
+//        console.log(top);
+        if(top >= (x*1.65) ){
             var y=$(".show_main").position().top;
-            if(y<=2807){
+            if(y<=(x*2.93)){
                 $('.show_main').css('top', top*0.999999999+'px');
             }
-            if(top >= 2827 && top <=3627){
-                set_top('htm_main_first_pic_1',top,'0.2',346,2827);
-                set_top('htm_main_first_pic_2',top,'0.1',420,2827);
+            if(top >= (x*2.9) && top <=(x*3.78)){
+                set_top('htm_main_first_pic_1',top,'0.2',(x*0.26),(x*2.9));
+                set_top('htm_main_first_pic_2',top,'0.1',(x*0.33),(x*2.9));
             }
-            if(top >= 3827 && top <=4827){
-                set_top('htm_main_sec_pic_1',top,'0.2',1500,3827);
-                set_top('htm_main_sec_pic_2',top,'0.3',1391,3827);
-                set_top('htm_main_sec_pic_3',top,'0.1',1521,3827);
+            if(top >= (x*3.9) && top <=(x*5)){
+                set_top('htm_main_sec_pic_1',top,'0.2',(x*1.46),(x*3.9));
+                set_top('htm_main_sec_pic_2',top,'0.3',(x*1.35),(x*3.9));
+                set_top('htm_main_sec_pic_3',top,'0.1',(x*1.48),(x*3.9));
             }
-            if(top >= 4727 && top <=5127){
-                set_top('htm_main_thr_pic_1',top,'0.4',2509,4727);
-                set_top('htm_main_thr_pic_2',top,'0.1',2776,4727);
+            if(top >= (x*4.9) && top <=(x*5.3)){
+                set_top('htm_main_thr_pic_1',top,'0.4',(x*2.32),(x*4.9));
+                set_top('htm_main_thr_pic_2',top,'0.1',(x*2.8),(x*4.9));
             }
         }else{
-            $('.show_main').css('top', '1850px');
+            var c =x*1.93 + 'px';
+            $('.show_main').css('top', c);
         }
     });
     $('.luntan_button .but_1').click(function(){

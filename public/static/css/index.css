@@ -123,7 +123,7 @@ ul{
     text-align: center;
     line-height:320%;
     margin-left:8%;
-    font-size: 100%;
+    font-size: 1em;
 }
 
 .show_main{
@@ -164,13 +164,13 @@ ul{
 .htm_main_first_pic_1{
     width:39.7%;
     position: absolute;
-    top:346px;
+    top:8%;
     left:50%;
 }
 .htm_main_first_pic_2{
     width:39.7%;
     position: absolute;
-    top:420px;
+    top:9.8%;
     left:57.5%;
 }
 .htm_main p{
@@ -182,19 +182,19 @@ ul{
 .htm_main_sec_pic_1{
     width:31%;
     position: absolute;
-    top:1500px;
+    top:34.6%;
     left:-6%;
 }
 .htm_main_sec_pic_2{
     width:22.5%;
     position: absolute;
-    top:1391px;
+    top:32.1%;
     left:5.3%;
 }
 .htm_main_sec_pic_3{
     width:17.7%;
     position: absolute;
-    top:1521px;
+    top:35.1%;
     left:24%;
 }
 .htm_main_sec_word{
@@ -213,13 +213,13 @@ ul{
 .htm_main_thr_pic_1{
     width:42.4%;
     position: absolute;
-    top:2509px;
+    top:57.8%;
     left:53.8%;
 }
 .htm_main_thr_pic_2{
     width:41.7%;
     position: absolute;
-    top:2776px;
+    top:66%;
     left:32.9%;
 }
 /*Part3*/
@@ -237,51 +237,54 @@ ul{
     background: #FAFAFA;
 }
 .luntan_pic{
-    width:134px;
+    width:7%;
     height:auto;
-    margin-left:366px;
+    margin-left:19.25%;
     margin-top:63px;
     float:left;
 }
 .luntan_word{
-    width:325px;
+    width:17.1%;
     height:105px;
     float:left;
-    font-size: 20px;
+    font-size: 120%;
     color: #000000;
     letter-spacing: 0;
     margin-top:38px;
-    margin-left:50px;
+    margin-left:3.6%;
 }
 .luntan_word p{
-    font-size: 40px;
+    font-size: 200%;
     color: #000000;
     letter-spacing: 0;
 }
 .luntan_button{
+    width:40%;
     float:left;
     margin-top:112px;
-    margin-left:180px;
+    margin-left:9.5%;
 }
 .but_1{
-    width:216px;
-    height:70px;
+    width:25%;
+    height:4em;
     border:none;
     background:url('../img/Rectangle_10.png') no-repeat ;
-    background-size:216px 70px;
-    font-size: 20px;
+    background-size:contain;
+    font-size: 120%;
     color: #FFFFFF;
     letter-spacing: 0;
+    line-height:100%;
 }
 .but_2{
-    width:216px;
-    height:70px;
+    width:25%;
+    height:4em;
     border:none;
     background:url('../img/Rectangle_11.png') no-repeat ;
-    background-size:216px 70px;
-    font-size: 20px;
+    background-size:contain;
+    font-size: 120%;
     color: #4F7EFB;
     letter-spacing: 0;
-    margin-left:67px;
+    margin-left:10%;
+    line-height:100%;
 }
 
