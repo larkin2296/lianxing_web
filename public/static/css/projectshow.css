@@ -10,6 +10,9 @@ p{
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+
 }
 
 .bottom{
