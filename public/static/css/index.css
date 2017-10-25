@@ -12,8 +12,8 @@ ul{
 
 /*Part1*/
 .center_pic{
-    width:1920px;
-    height:750px;
+    width:100%;
+    height:47em;
     background-color: #12151A;
     overflow: hidden;
 }
@@ -21,9 +21,9 @@ ul{
     position: relative;
     top:0px;
     left:0px;
-    width:1894px;
-    height:1260px;
-    margin-left:-100px;
+    width:98%;
+    height:168%;
+    margin-left:-6%;
     z-index:1;
     opacity: 1;
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -35,11 +35,10 @@ ul{
 }
 .main_pic_1{
     position: absolute;
-    top:312px;
+    top:12%;
     left:0px;
-    width:1800px;
-    height:773px;
-    margin-left:100px;
+    width:93.7%;
+    margin-left:6%;
     z-index:30;
     opacity: 1;
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
@@ -53,47 +52,46 @@ ul{
     /*overflow: visible; perspective: 1600px; transform-style: preserve-3d; visibility: inherit;*/
 }
 .center_word_1{
-    width:960px;
-    height:235px;
+    width:50%;
+    height:50%;
     position: absolute;
-    top:285px;
-    left:480px;
+    top:10%;
+    left:25%;
     z-index:50;
     background: url('../img/Group_34.png') no-repeat;
-    background-size:960px 235px;
+    background-size:contain;
 }
 .center_main{
     /*display:none;*/
-    position:absolute;left:0px;top:80px;
-    width:1920px;
+    position:absolute;left:0px;top:8.4%;
+    width:100%;
     min-width:1000px;
     height:auto;
     background-color: #4F7EFB;
     z-index: 99;
 }
 .center_word{
-    width:1920px;
+    width:100%;
     min-width:1000px;
-    height:1200px;
+    height:75em;
     background-color: #4F7EFB;
     position:relative;left:0px;top:0px;
     z-index:99;
 }
 .center_word_main{
-    padding-top:110px;
+    padding-top:6%;
     color:white;
     text-align: center;
-    line-height:50px;
     font-family: PingFangSC-Regular;
-    font-size: 26px;
-    line-height:70px;
+    font-size: 165%;
+    line-height:270%;
 }
 .center_word_pic{
-    width:1920px;
-    height:900px;
-    background: url('../img/right_1.png') 700px 265px no-repeat,
-    url("../img/right_2.png") 450px 0 no-repeat,
-    url("../img/right_3.png") 200px 142px no-repeat;
+    width:100%;
+    height:70%;
+    background: url('../img/right_1.png') 72% 67% no-repeat,
+    url("../img/right_2.png") 48% 0 no-repeat,
+    url("../img/right_3.png") 15% 52% no-repeat;
     margin-top:150px;
 }
 .grey_main{
