@@ -3,32 +3,32 @@ ul{
     padding:0px;
 }
 .top{
-    width:1920px;
-    height:80px;
+    width:100%;
+    height:10%;
     margin:0 auto;
     background-color: #000000;
     position: relative;
     z-index:200;
 }
 .top span{
-    font-size:30px;
+    font-size:180%;
     font-weight: 700;
     color:#3068FB;
     margin-left:8%;
-    line-height:80px;
+    line-height:280%;
 }
 .top_meau{
     float:right;
     width:40%;
-    height:80px;
+    height:100%;
     color:#7D7D7D;
 }
 .top_meau li{
     list-style: none;
     float:left;
     width:16.6%;
-    height:80px;
-    line-height:80px;
+    height:100%;
+    line-height:480%;
     text-align: center;
     cursor: pointer;
 }
@@ -38,24 +38,23 @@ ul{
 }
 .pro_more{
     display: none;
-    width:120px;
-    height:100px;
+    width:7%;
+    height:110%;
     position: absolute;
     z-index: 500;
     background-color: #000000;
-    margin-left:10px;
     color:#3068FB;
 }
 .more_li{
-    font-size: 11px;
+    font-size: 80%;
 }
 .pro_more ul{
     margin:0px;
     padding:0px;
 }
 .pro_more ul li{
-    width:120px;
-    height:30px;
-    line-height: 30px;
+    width:100%;
+    height:30%;
+    line-height: 300%;
     margin-left:0px;
 }
