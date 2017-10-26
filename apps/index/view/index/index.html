@@ -69,7 +69,7 @@
         </div>
     </div>
     <!-- 灰色区域 -->
-    <div class="grey_main">
+    <div class="grey_main" id="grey_main">
         <!-- 文字部分 -->
         <div class="grey_word">
             医疗链底层架构将采用分布式账本技术框架<br/>
@@ -230,29 +230,31 @@
     $(window).scroll(function() {
         var x = document.body.clientHeight;
         var top = $(document).scrollTop();
-//        console.log(x);
-//        console.log(top);
-        if(top >= (x*1.65) ){
+        var z = $('#grey_main').offset().top;
+        var zz = $('#grey_main').height();
+        //console.log(x+'……'+top);
+        console.log(z+zz);
+        if(top >= (z+zz-x) ){
             var y=$(".show_main").position().top;
-            if(y<=(x*2.93)){
+            var g = (z+zz)/2666;
+            if(y<=(z+zz)){
                 $('.show_main').css('top', top*0.999999999+'px');
             }
-            if(top >= (x*2.9) && top <=(x*3.78)){
-                set_top('htm_main_first_pic_1',top,'0.2',(x*0.26),(x*2.9));
-                set_top('htm_main_first_pic_2',top,'0.1',(x*0.33),(x*2.9));
+            if(top >= 2827*g && top <= 3685*g){
+                set_top('htm_main_first_pic_1',top,'0.2',254*g,2827*g);
+                set_top('htm_main_first_pic_2',top,'0.1',321*g,2827*g);
             }
-            if(top >= (x*3.9) && top <=(x*5)){
-                set_top('htm_main_sec_pic_1',top,'0.2',(x*1.46),(x*3.9));
-                set_top('htm_main_sec_pic_2',top,'0.3',(x*1.35),(x*3.9));
-                set_top('htm_main_sec_pic_3',top,'0.1',(x*1.48),(x*3.9));
+            if(top >= 3802*g && top <=4875*g){
+                set_top('htm_main_sec_pic_1',top,'0.2',1423*g,3802*g);
+                set_top('htm_main_sec_pic_2',top,'0.3',1316*g,3802*g);
+                set_top('htm_main_sec_pic_3',top,'0.1',1443*g,3802*g);
             }
-            if(top >= (x*4.9) && top <=(x*5.3)){
-                set_top('htm_main_thr_pic_1',top,'0.4',(x*2.32),(x*4.9));
-                set_top('htm_main_thr_pic_2',top,'0.1',(x*2.8),(x*4.9));
+            if(top >= 4778*g && top <=5167*g){
+                set_top('htm_main_thr_pic_1',top,'0.4',2262*g,4778*g);
+                set_top('htm_main_thr_pic_2',top,'0.1',2730*g,4778*g);
             }
         }else{
-            var c =x*1.93 + 'px';
-            $('.show_main').css('top', c);
+            $('.show_main').css('top', 1882*g);
         }
     });
     $('.luntan_button .but_1').click(function(){
