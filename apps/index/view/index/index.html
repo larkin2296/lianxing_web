@@ -198,7 +198,10 @@
     }
     // 当窗口大小改变时执行函数
     fontS();
-    window.onresize = function(){fontS();}
+    window.onresize = function(){
+        location.reload();
+        fontS();
+    }
     $(function() {
         $(window).scrollTop(0);
         $('body').animate({scrollTop:'0'},500);
@@ -232,13 +235,14 @@
         var top = $(document).scrollTop();
         var z = $('#grey_main').offset().top;
         var zz = $('#grey_main').height();
+        var g = (z+zz)/2666;
         //console.log(x+'……'+top);
-        console.log(z+zz);
+        //console.log((z+zz-x)+'……'+top);
         if(top >= (z+zz-x) ){
             var y=$(".show_main").position().top;
-            var g = (z+zz)/2666;
+
             if(y<=(z+zz)){
-                $('.show_main').css('top', top*0.999999999+'px');
+                $('.show_main').css('top', top*0.9999+'px');
             }
             if(top >= 2827*g && top <= 3685*g){
                 set_top('htm_main_first_pic_1',top,'0.2',254*g,2827*g);

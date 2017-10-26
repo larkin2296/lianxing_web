@@ -4,6 +4,7 @@ html,body{
     height:100%;
     margin:0px;
     padding:0px;
+    overflow-x: hidden;
     /*background-color: black;*/
 }
 ul{
@@ -17,6 +18,7 @@ ul{
     height:47em;
     background-color: #12151A;
     overflow: hidden;
+
 }
 .main_pic{
     position: relative;
@@ -182,19 +184,19 @@ ul{
 .htm_main_sec_pic_1{
     width:31%;
     position: absolute;
-    top:34.6%;
+    top:31.6%;
     left:-6%;
 }
 .htm_main_sec_pic_2{
     width:22.5%;
     position: absolute;
-    top:32.1%;
+    top:29.3%;
     left:5.3%;
 }
 .htm_main_sec_pic_3{
     width:17.7%;
     position: absolute;
-    top:35.1%;
+    top:31.9%;
     left:24%;
 }
 .htm_main_sec_word{
@@ -213,13 +215,13 @@ ul{
 .htm_main_thr_pic_1{
     width:42.4%;
     position: absolute;
-    top:57.8%;
+    top:50%;
     left:53.8%;
 }
 .htm_main_thr_pic_2{
     width:41.7%;
     position: absolute;
-    top:66%;
+    top:60.4%;
     left:32.9%;
 }
 /*Part3*/
