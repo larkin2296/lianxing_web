@@ -1,0 +1,126 @@
+body,html{
+    width:100%;
+    min-width: 1280px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x: hidden;
+}
+p{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+
+}
+.about_title{
+    width:100%;
+    height:19em;
+    background-color: #4F7EFB;
+}
+.about_title p{
+    text-align: center;
+    line-height:7em;
+    font-family: PingFangSC-Regular;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.about_pic{
+    width:100%;
+    height:51.9em;
+    background: url('../img/about_1.png') no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.pic_word{
+    padding-top:15%;
+    line-height: 500%;
+}
+.about_pic p{
+    font-family: Silom;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.about_main{
+    width:100%;
+    height:90.6em;
+    position: relative;
+}
+.about_main .about_main_pic{
+    width:36.4%;
+    height:4.3%;
+    margin:9.4% auto;
+    background: url('../img/about_pic_2.png') no-repeat;
+    background-size: contain;
+}
+.about_main_word_1{
+    height:4.1%;
+    width:65.8%;
+    margin:6.8% auto;
+    font-family: PingFangSC-Regular;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    line-height:220%;
+}
+.about_main_word_2{
+    width:28.6%;
+    height:33%;
+    margin-top:13.7%;
+    margin-left:12.5%;
+    font-family: PingFangSC-Light;
+    font-size: 24px;
+    color: #000000;
+    line-height: 220%;
+}
+.about_main_word_2 p{
+    font-family: PingFangSC-Medium;
+    font-size: 48px;
+    color: #000000;
+    line-height:220%;
+}
+.about_main_pic_2{
+    width:28.1%;
+    position: absolute;
+    left:55%;
+    top:47%;
+}
+.about_main_pic_3{
+    width:28.1%;
+    position: absolute;
+    left:49%;
+    top:51.8%;
+}
+.about_main_pic_4{
+    width: 6.4%;
+    height: 27.6%;
+    position: absolute;
+    left: 70.7%;
+    top: 42.6%;
+}
+.about_pic_2{
+    width:100%;
+    height:71.9%;
+    background: url('../img/about_center_pic.png') no-repeat;
+    background-size: contain;
+
+}
+.about_list{
+    width:100%;
+    height:128.4%;
+    background-color: #484B52;
+    margin:0px;
+}
+.about_list p{
+    padding-top:8%;
+    text-align: center;
+    margin:0 auto;
+    font-family: PingFangSC-Medium;
+    font-size: 48px;
+    color: #FFFFFF;
+}
