@@ -42,11 +42,46 @@
 </div>
 <div class="about_pic_2"></div>
 <div class="about_list">
-    <p>Our Project</p>
-    <li></li>
-    <li></li>
-    <li></li>
+    <p style="padding-bottom:10.7%;">Our Project</p>
+    <li>
+        <div class="about_list_1"></div>
+        <p>区块链服务器</p>
+        Aliquam venenatis nisi ut orci congue hendrerit. Quisque non<br/>
+        lectus at turpis euismod vehicula! Vestibulum varius nulla leo, a<br/>
+        pulvinar nisl dapibus a posuere.
+    </li>
+    <li>
+        <div class="about_list_2"></div>
+        <p>行业解决方案</p>
+        Donec at turpis tincidunt, pretium velit in, porttitor justo?<br/>
+        Phasellus interdum ultrices tortor sed condimentum! Donec vel<br/>
+        tincidunt lorem. Sed mattis dui sed.
+    </li>
+    <li>
+        <div class="about_list_3"></div>
+        <p>个人健康应用 — AI穿戴</p>
+        Proin eu metus purus. Cras vehicula tincidunt enim. Vestibulum<br/>
+        convallis ex ut odio hendrerit aliquet. Proin cursus magna ac<br/>
+        risus condimentum, in pharetra sed.
+    </li>
 </div>
 {include file='index/index_bottom'}
 </body>
 </html>
+<script>
+    var html = document.documentElement;
+    function fontS(){
+        // 获取 html 的宽
+        var hW = html.offsetWidth;
+        // 计算字体大小，这里是 html 宽的五十分之一
+        var hS = hW / 120;
+        // 给刚开始时的 html 设置字体大小
+        html.style.fontSize = hS + "px";
+    }
+    // 当窗口大小改变时执行函数
+    fontS();
+    window.onresize = function(){
+        location.reload();
+        fontS();
+    }
+</script>
