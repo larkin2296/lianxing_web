@@ -24,5 +24,13 @@
         <img src="" class="bot_pic"/><img src="" class="bot_pic"/><img src="" class="bot_pic"/><img src="" class="bot_pic"/>
     </li>
 
-    <img src="" />
+    <div class="go_top">
+        <div class="go_top_pic"></div>
+    </div>
 </div>
+<script src="__static__/js/jquery.min.js" ></script>
+<script>
+    $('.go_top_pic').click(function(){
+        $("html,body").animate({scrollTop:0},1000);
+    })
+</script>
