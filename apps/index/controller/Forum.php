@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 54646
- * Date: 2017/10/27
- * Time: 9:39
- */
+namespace app\index\controller;
+
+use think\Controller;
+use think\Db;
+
+class Forum extends Controller
+{
+    public function index(){
+
+        return $this->fetch();
+        //$this->display();
+    }
+}

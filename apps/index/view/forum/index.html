@@ -2,9 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>论坛</title>
+    <link type="text/css" href="__static__/css/forum.css" rel="stylesheet" />
+    <script src="__static__/js/jquery.min.js" ></script>
+    <title>关于我们</title>
 </head>
 <body>
-$END$
+{include file='index/index_top'}
+<div class="forum_title">媒体论坛</div>
+<div class="forum_main">
+    <div class="forum_left">
+        <div class="forum_left_title">
+                <li>标签来自</li>
+                <li>
+                    <img src="__static__/img/forum_group.png" />
+                    <select>
+                        <option>类别</option>
+                    </select>
+                </li>
+                <li>
+                    <img src="__static__/img/forum_label.png" />
+                    <select>
+                        <option>标签</option>
+                    </select>
+                </li>
+                <li>
+                    <img src="__static__/img/forum_person.png" />
+                    <select>
+                        <option>发布者</option>
+                    </select>
+                </li>
+                <div class="forum_left_title_right"><img src="__static__/img/forum_close.png" />全部展示</div>
+
+        </div>
+        <div class="forum_left_label">
+            <li class="forum_left_label_list forum_left_label_active">事件</li>
+            <li class="forum_left_label_list">新闻</li>
+            <li class="forum_left_label_list">科学</li>
+            <img src="__static__/img/forum_label_close.png" />
+        </div>
+        <div class="forum_article">
+                <li>
+                    <div class="forum_article_date"></div>
+                    <div>
+                        <div class="forum_article_pic"></div>
+                        <div class="forum_article_from">
+                                <span>内容作者</span><img src="__static__/img/forum_user.png" /><span>郭梓宣</span>
+                        </div>
+                        <div class="">
+                            <p>康复医疗产业将迎来更多机遇</p>
+                            <div></div>
+                            <div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li></li>
+                <li></li>
+        </div>
+    </div>
+    <div class="forum_right">
+        <div>
+            <p></p>
+            <input type="text" />
+        </div>
+        <div>
+            <p></p>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <p></p>
+        </div>
+    </div>
+</div>
+
+<!-- 论坛部分 -->
+<div class="luntan">
+    <div class="luntan_pic">
+        <img src="__static__/img/Group_35.png" class="luntan_pic_1"/>
+    </div>
+
+    <div class="luntan_word">
+        <p>HCC论坛</p>
+        最新医疗论坛资讯，尽在HCC医疗链
+    </div>
+
+    <div class="luntan_button">
+        <input type="button" value="注册/登录" class="but_1" />
+        <input type="button" value="阅读更多" class="but_2" />
+    </div>
+
+</div>
+
+{include file='index/index_bottom'}
 </body>
 </html>

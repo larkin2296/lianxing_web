@@ -1,0 +1,247 @@
+body,html{
+    margin:0px;
+    padding:0px;
+    height:100%;
+}
+ul{
+    padding:0px;
+    margin:0px;
+}
+select {
+    /*统一边框*/
+    border: none;
+    /*将默认的select选择框样式清除*/
+    appearance:none;//这个样式就是清楚他的下拉按钮的默认样式
+-moz-appearance:none;
+    -webkit-appearance:none;
+    /*替换选择框的最右侧显示小箭头图片*/
+    background: url("../img/forum_icon.png") no-repeat scroll right center transparent;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+.forum_title{
+    width:100%;
+    height:31%;
+    background: #4F7EFB;
+    text-align: center;
+    line-height:600%;
+    font-family: PingFangSC-Regular;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.forum_main{
+    width:100%;
+    height:147%;
+    background: #F0F0F0;
+}
+.forum_left{
+    float:left;
+    width:61.4%;
+    height:100%;
+}
+.forum_left_title{
+    width:76.4%;
+    height:5.5%;
+    background: url('../img/forum_title.png') no-repeat;
+    background-size:cover;
+    font-family: PingFangSC-Light;
+    font-size: 18px;
+    color: #8A8A8A;
+    margin:2.7% 20.3%;
+}
+.forum_left_title li{
+    width:11.7%;
+    height:100%;
+    float:left;
+    list-style: none;
+    line-height:450%;
+    margin-left:3%;
+}
+.forum_left_title li img{
+    vertical-align: middle;
+    padding-right:10%;
+}
+.forum_left_title_right{
+    width:11%;
+    height:100%;
+    line-height:600%;
+    float: right;
+    margin-right: 4.4%;
+}
+.forum_left_title_right img{
+    margin-right: 10%;
+}
+.forum_left_title select{
+    width:65%;
+    font-family: PingFangSC-Light;
+    font-size: 18px;
+    color: #234EBF;
+}
+.forum_left_label{
+    width:53.1%;
+    height:3.2%;
+    margin-left:22.3%;
+}
+.forum_left_label_list{
+    list-style: none;
+    float:left;
+    background-color: #ffffff;
+    width:25.1%;
+    height:100%;
+    margin-left:3.5%;
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #979797;
+    line-height:360%;
+    text-align: center;
+}
+.forum_left_label_active{
+    color: #ffffff;
+    background-color: #386EFE;;
+}
+.forum_left_label img{
+    width:8.2%;
+    margin-left:2%;
+    vertical-align: middle;
+}
+.forum_article{
+    width:100%;
+    height:auto;
+    min-height:1157px;
+    overflow: scroll;
+}
+.forum_article li{
+    width:71.9%;
+    height:33.2%;
+}
+.forum_article_date{
+    width:10%;
+    height:2em;
+    background: url('../img/forum_date_1.png') no-repeat;
+    background-size: contain;
+}
+.forum_article_pic{
+    width:1.5%;
+    height:1em;
+    background: url('../img/forum_combine.png') no-repeat;
+    background-size: contain;
+}
+.forum_article_from{
+    width:20.3%;
+    height:2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.forum_right{
+    float:left;
+    width:38.6%;
+    height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.luntan{
+    width:100%;
+    height:260px;
+    margin-top:5%;
+    background: #FAFAFA;
+}
+
+.luntan_pic{
+    width:7%;
+    height:auto;
+    margin-left:19.25%;
+    margin-top:63px;
+    float:left;
+}
+.luntan_word{
+    width:17.1%;
+    height:105px;
+    float:left;
+    font-size: 120%;
+    color: #000000;
+    letter-spacing: 0;
+    margin-top:38px;
+    margin-left:3.6%;
+}
+.luntan_word p{
+    font-size: 200%;
+    color: #000000;
+    letter-spacing: 0;
+}
+.luntan_button{
+    width:40%;
+    float:left;
+    margin-top:112px;
+    margin-left:9.5%;
+}
+.but_1{
+    width:25%;
+    height:4em;
+    border:none;
+    background:url('../img/Rectangle_10.png') no-repeat ;
+    background-size:contain;
+    font-size: 120%;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height:100%;
+}
+.but_2{
+    width:25%;
+    height:4em;
+    border:none;
+    background:url('../img/Rectangle_11.png') no-repeat ;
+    background-size:contain;
+    font-size: 120%;
+    color: #4F7EFB;
+    letter-spacing: 0;
+    margin-left:10%;
+    line-height:100%;
+}
