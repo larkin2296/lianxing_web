@@ -1,11 +1,12 @@
 ul{
     margin:0px;
     padding:0px;
+    height:101%;
 }
 .top{
     width:100%;
     min-width:1280px;
-    height:10%;
+    height:7.6%;
     margin:0 auto;
     background-color: #000000;
 }
@@ -50,6 +51,7 @@ ul{
     z-index: 500;
     background-color: #000000;
     color:#3068FB;
+    margin-top:-0.4%;
 }
 .more_li{
     font-size: 80%;

@@ -71,7 +71,7 @@ ul{
 }
 .center_main{
     /*display:none;*/
-    position:absolute;left:0px;top:8.4%;
+    position:absolute;left:0px;top:7%;
     width:100%;
     min-width:1280px;
     height:auto;
@@ -280,7 +280,7 @@ ul{
     font-size: 120%;
     color: #FFFFFF;
     letter-spacing: 0;
-    line-height:100%;
+    line-height:200%;
 }
 .but_2{
     width:25%;
@@ -292,7 +292,7 @@ ul{
     color: #4F7EFB;
     letter-spacing: 0;
     margin-left:10%;
-    line-height:100%;
+    line-height:200%;
 }
 
 .more{
