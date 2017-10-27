@@ -8,8 +8,6 @@ ul{
     height:10%;
     margin:0 auto;
     background-color: #000000;
-    position: relative;
-    z-index:200;
 }
 .top span{
     font-size:180%;
@@ -24,14 +22,21 @@ ul{
     height:100%;
     color:#7D7D7D;
 }
-.top_meau li{
+.top_meau li {
     list-style: none;
-    float:left;
-    width:16.6%;
-    height:100%;
-    line-height:480%;
+    float: left;
+    width: 16.6%;
+    height: 100%;
+    line-height: 480%;
     text-align: center;
     cursor: pointer;
+}
+.top_meau li:hover{
+    border-bottom: 4px solid #ffffff;
+}
+
+.active{
+    border-bottom: 4px solid #ffffff;
 }
 .top_meau a{
     text-decoration: none;

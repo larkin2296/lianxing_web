@@ -117,6 +117,11 @@
                 配套设备落后等问题，市场对康复服务的需求量与日俱增，康复产业发展<br />
                 空间巨大。此外，大力发展康复医疗，能有效利用医疗资源，分流亚急性<br />
                 期和慢病对大医院的压力，最终实现降低医疗费用的目的 … …
+                <div class="more">查看更多<img src="__static__/img/back.png" /><br/>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
             </div>
             <div class="htm_main_first_sec">
                 <p>医工融合推动创新</p>
@@ -125,6 +130,12 @@
                 机器人和手术机器人行业规模到2021年将分别达到32亿美元与200亿美元，<br/>
                 年均复合增速分别为46.6%、29.9%，前者增速更快。“国外手术机器人市场份额和技术壁垒相对较高，<br/>
                 结合我国老龄化人口机构来看，康复机器人前景更为广阔。”
+                <div class="more">查看更多<img src="__static__/img/back.png" /><br/>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+
             </div>
             <!--图片部分 -->
             <img src="__static__/img/500333421.png" class="htm_main_first_pic_1"/>
@@ -143,6 +154,7 @@
                 例如区块的根哈希及其 API(应用程序接 口)对外公开，API 可允许<br/>
                 外界用来作有限次数的查询和获取区块链状态的信息<br/>
                 这些区块链可视为“部分去中心化”
+                <div class="more">查看更多<img src="__static__/img/back.png" /></div>
             </div>
         </div>
         <!-- 第三部分 -->
@@ -156,6 +168,7 @@
                 再加上相应的安全策略、安全规范，形成完整的安全保证体系，<br/>
                 保证系统数 据不被非法入侵者破坏和盗用，<br/>
                 并保证数据的一致性
+                <div class="more">查看更多<img src="__static__/img/back.png" /></div>
             </div>
             <img src="__static__/img/Group_30.png" class="htm_main_thr_pic_1" />
             <img src="__static__/img/Group_32.png" class="htm_main_thr_pic_2" />
@@ -203,6 +216,7 @@
         fontS();
     }
     $(function() {
+        $('.meau_list').eq(0).addClass('active');
         $(window).scrollTop(0);
         $('body').animate({scrollTop:'0'},500);
         $(".center_pic").mousemove(function(e) {
@@ -239,16 +253,23 @@
         //console.log(x+'……'+top);
         //console.log((z+zz-x)+'……'+top);
         if(top >= (z+zz-x) ){
-            var y=$(".show_main").position().top;
 
+            var y=$(".show_main").position().top;
             if(y<=(z+zz)){
                 $('.show_main').css('top', top*0.9999+'px');
             }
+            if(y>(z+zz-x) && y<(z+zz+x*1.2)){
+                $('.meau_list').removeClass('active');
+                $('.meau_list').eq(1).addClass('active');
+            }
             if(top >= 2827*g && top <= 3685*g){
+
                 set_top('htm_main_first_pic_1',top,'0.2',254*g,2827*g);
                 set_top('htm_main_first_pic_2',top,'0.1',321*g,2827*g);
             }
             if(top >= 3802*g && top <=4875*g){
+                $('.meau_list').removeClass('active');
+                $('.meau_list').eq(2).addClass('active');
                 set_top('htm_main_sec_pic_1',top,'0.2',1423*g,3802*g);
                 set_top('htm_main_sec_pic_2',top,'0.3',1316*g,3802*g);
                 set_top('htm_main_sec_pic_3',top,'0.1',1443*g,3802*g);
@@ -258,11 +279,31 @@
                 set_top('htm_main_thr_pic_2',top,'0.1',2730*g,4778*g);
             }
         }else{
+            $('.meau_list').removeClass('active');
+            $('.meau_list').eq(0).addClass('active');
             $('.show_main').css('top', 1882*g);
         }
     });
     $('.luntan_button .but_1').click(function(){
         location.href = '__back__/index.php/index/login';
     })
-
+    $('.meau_list').eq(0).click(function(){
+        $("html,body").animate({scrollTop:0},1000);
+    })
+    $('.meau_list').eq(1).click(function(){
+        var x = document.body.clientHeight*0.8;
+        var top = $(document).scrollTop();
+        var z = $('#grey_main').offset().top;
+        var zz = $('#grey_main').height();
+        var g = z+zz;
+        $("html,body").animate({scrollTop:g},1000);
+    })
+    $('.meau_list').eq(2).click(function(){
+        var x = document.body.clientHeight*1.2;
+        var top = $(document).scrollTop();
+        var z = $('#grey_main').offset().top;
+        var zz = $('#grey_main').height();
+        var g = z+zz+x;
+        $("html,body").animate({scrollTop:g},1000);
+    })
 </script>

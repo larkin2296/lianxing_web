@@ -5,7 +5,7 @@
     <!-- 导航栏 -->
     <div class="top_meau">
         <ul>
-            <li><a href="__back__">首页</a></li>
+            <li class="meau_list"><a href="__back__">首页</a></li>
             <li class="product_li">
                 产品介绍
                 <div class='pro_more'>
@@ -19,10 +19,10 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="">媒体资讯</a></li>
-            <li><a href="">区块链</a></li>
-            <li><a href="__back__/index.php/index/about/index">关于我们</a></li>
-            <li><a href="__back__/index.php/index/login/index">论坛</a></li>
+            <li class="meau_list">媒体资讯</li>
+            <li class="meau_list">区块链</li>
+            <li class="meau_list"><a href="__back__/index.php/index/about/index">关于我们</a></li>
+            <li class="meau_list"><a href="__back__/index.php/index/login/index">论坛</a></li>
         </ul>
     </div>
 </div>
@@ -34,4 +34,8 @@
     $('.product_li').mouseout(function(){
         $('.pro_more').css('display','none');
     })
+//    $('.top_meau li').click(function(){
+//        $('.top_meau li').removeClass('active');
+//        $(this).addClass('active');
+//    })
 </script>

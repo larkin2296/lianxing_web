@@ -11,7 +11,12 @@ ul{
     margin:0px;
     padding:0px;
 }
-
+.top{
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:200;
+}
 /*Part1*/
 .center_pic{
     width:100%;
@@ -288,5 +293,23 @@ ul{
     letter-spacing: 0;
     margin-left:10%;
     line-height:100%;
+}
+
+.more{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #39A0E7;
+}
+.more img{
+    margin-left:1%;
+}
+.more li{
+    width:8px;
+    height:8px;
+    margin-right:1%;
+    float:left;
+    list-style: none;
+    background: url('../img/index_word_1.png') no-repeat;
+    background-size: contain;
 }
 
