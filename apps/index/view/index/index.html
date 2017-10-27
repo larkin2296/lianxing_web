@@ -258,12 +258,9 @@
             if(y<=(z+zz)){
                 $('.show_main').css('top', top*0.9999+'px');
             }
-            if(y>(z+zz-x) && y<(z+zz+x*1.2)){
+            if(top >= 2827*g && top <= 3685*g){
                 $('.meau_list').removeClass('active');
                 $('.meau_list').eq(1).addClass('active');
-            }
-            if(top >= 2827*g && top <= 3685*g){
-
                 set_top('htm_main_first_pic_1',top,'0.2',254*g,2827*g);
                 set_top('htm_main_first_pic_2',top,'0.1',321*g,2827*g);
             }
@@ -291,19 +288,15 @@
         $("html,body").animate({scrollTop:0},1000);
     })
     $('.meau_list').eq(1).click(function(){
-        var x = document.body.clientHeight*0.8;
-        var top = $(document).scrollTop();
         var z = $('#grey_main').offset().top;
         var zz = $('#grey_main').height();
-        var g = z+zz;
-        $("html,body").animate({scrollTop:g},1000);
+        var k = (z+zz)/2666;
+        $("html,body").animate({scrollTop:2700*k},1000);
     })
     $('.meau_list').eq(2).click(function(){
-        var x = document.body.clientHeight*1.2;
-        var top = $(document).scrollTop();
         var z = $('#grey_main').offset().top;
         var zz = $('#grey_main').height();
-        var g = z+zz+x;
-        $("html,body").animate({scrollTop:g},1000);
+        var k = (z+zz)/2666;
+        $("html,body").animate({scrollTop:3802*k*1.01},1000);
     })
 </script>
