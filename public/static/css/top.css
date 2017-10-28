@@ -33,7 +33,7 @@ ul{
     text-align: center;
     cursor: pointer;
 }
-.top_meau li:hover{
+.meau_list:hover{
     border-bottom: 4px solid #ffffff;
 }
 
