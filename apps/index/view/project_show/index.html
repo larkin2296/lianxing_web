@@ -18,7 +18,6 @@
         <input type="button" value="" style="background:url('__static__/img/Group_153.png') no-repeat;background-size: contain;float:right;"/>
     </div>
     <div class="fir_pic">
-            <div class="fir_pic_grey"></div>
     </div>
 </div>
 <div class="content_sec">
@@ -104,3 +103,22 @@
 </html>
 <script src="__static__/js/jquery.min.js" ></script>
 <script src="__static__/js/cover.js" ></script>
+<script>
+    var html = document.documentElement;
+
+    // 封装一个函数
+    function fontS(){
+        // 获取 html 的宽
+        var hW = html.offsetWidth;
+        // 计算字体大小，这里是 html 宽的五十分之一
+        var hS = hW / 120;
+        // 给刚开始时的 html 设置字体大小
+        html.style.fontSize = hS + "px";
+    }
+    // 当窗口大小改变时执行函数
+    fontS();
+    window.onresize = function(){
+        location.reload();
+        fontS();
+    }
+</script>

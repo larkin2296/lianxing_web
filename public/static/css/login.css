@@ -157,13 +157,13 @@ p{
 }
 .register_list_left .list_2{
     font-family: PingFangSC-Thin;
-    font-size: 24px;
+    font-size: 18px;
     color: #162D3D;
     letter-spacing: 0;
 }
 .register_list_left .list_text{
     width:484px;
-    height:0px;
+    height:40px;
     border:none;
     border-bottom: 1px solid #E1E1E1;
     margin-bottom:10px;
