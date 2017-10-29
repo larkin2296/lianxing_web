@@ -24,7 +24,7 @@ select {
 -moz-appearance:none;
     -webkit-appearance:none;
     /*替换选择框的最右侧显示小箭头图片*/
-    background: url("../img/forum_icon.png") no-repeat scroll right center transparent;
+    background: url("../img/forum_icon.jpg") no-repeat scroll right center transparent;
     /*为下拉小箭头留出一点位置，避免被文字覆盖*/
     padding-right: 14px;
 }
@@ -52,7 +52,7 @@ select {
 .forum_left_title{
     width:76.4%;
     height:5.5%;
-    background: url('../img/forum_title.png') no-repeat;
+    background: url('../img/forum_title.jpg') no-repeat;
     background-size:cover;
     font-family: PingFangSC-Light;
     font-size: 110%;
@@ -133,7 +133,7 @@ select {
 .forum_article_date{
     width:10%;
     height:2em;
-    background: url('../img/forum_date_1.png') no-repeat;
+    background: url('../img/forum_date_1.jpg') no-repeat;
     background-size: contain;
     float:left;
     line-height:2em;
@@ -144,7 +144,7 @@ select {
 .forum_article_pic{
     width:1.5%;
     height:1em;
-    background: url('../img/forum_combine.png') no-repeat;
+    background: url('../img/forum_combine.jpg') no-repeat;
     background-size: contain;
     float:left;
     margin-top: 1%;
@@ -301,7 +301,7 @@ select {
 .forum_article_date_1{
     width:10%;
     height:2em;
-    background: url('../img/forum_date_2.png') no-repeat;
+    background: url('../img/forum_date_2.jpg') no-repeat;
     background-size: contain;
     float:left;
     line-height:2em;
@@ -313,7 +313,7 @@ select {
 .forum_article_pic_1 {
     width: 1.5%;
     height: 1em;
-    background: url(../img/forum_combine.png) no-repeat;
+    background: url(../img/forum_combine.jpg) no-repeat;
     background-size: contain;
     float: left;
     margin-top: 1%;
@@ -419,7 +419,7 @@ select {
     width:25%;
     height:3.5em;
     border:none;
-    background:url('../img/Rectangle_10.png') no-repeat ;
+    background:url('../img/Rectangle_10.jpg') no-repeat ;
     background-size:contain;
     font-size: 120%;
     color: #FFFFFF;
@@ -430,7 +430,7 @@ select {
     width:25%;
     height:3.5em;
     border:none;
-    background:url('../img/Rectangle_11.png') no-repeat ;
+    background:url('../img/Rectangle_11.jpg') no-repeat ;
     background-size:contain;
     font-size: 120%;
     color: #4F7EFB;

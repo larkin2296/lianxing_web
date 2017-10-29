@@ -32,7 +32,7 @@ p{
 .about_pic{
     width:100%;
     height:51.9em;
-    background: url('../img/about_1.png') no-repeat;
+    background: url('../img/about_1.jpg') no-repeat;
     background-size: contain;
     text-align: center;
 }
@@ -55,7 +55,7 @@ p{
     width:36.4%;
     height:4.3%;
     margin:9.4% auto;
-    background: url('../img/about_pic_2.png') no-repeat;
+    background: url('../img/about_pic_2.jpg') no-repeat;
     background-size: contain;
 }
 .about_main_word_1{
@@ -106,7 +106,7 @@ p{
 .about_pic_2{
     width:100%;
     height:71.9%;
-    background: url('../img/about_center_pic.png') no-repeat;
+    background: url('../img/about_center_pic.jpg') no-repeat;
     background-size: contain;
 
 }
@@ -138,19 +138,19 @@ p{
 .about_list_1{
     width:100%;
     height:71.6%;
-    background: url('../img/about_list_2.png') no-repeat;
+    background: url('../img/about_list_2.jpg') no-repeat;
     background-size: contain;
 }
 .about_list_2{
     width:100%;
     height:71.6%;
-    background: url('../img/about_list_1.png') no-repeat;
+    background: url('../img/about_list_1.jpg') no-repeat;
     background-size: contain;
 }
 .about_list_3{
     width:100%;
     height:71.6%;
-    background: url('../img/about_list_3.png') no-repeat;
+    background: url('../img/about_list_3.jpg') no-repeat;
     background-size: contain;
 }
 .about_list li p{

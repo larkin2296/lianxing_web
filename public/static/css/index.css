@@ -66,7 +66,7 @@ ul{
     top:10%;
     left:25%;
     z-index:50;
-    background: url('../img/Group_34.png') no-repeat;
+    background: url('../img/Group_34.jpg') no-repeat;
     background-size:contain;
 }
 .center_main{
@@ -95,10 +95,10 @@ ul{
 }
 .center_word_pic{
     width:100%;
-    height:70%;
-    background: url('../img/right_1.png') 72% 82% no-repeat,
-    url("../img/right_2.png") 48% 42% no-repeat,
-    url("../img/right_3.png") 15% 73% no-repeat;
+    height:60%;
+    background: url('../img/right_1.jpg') 72% 82% no-repeat,
+    url("../img/right_2.jpg") 48% 42% no-repeat,
+    url("../img/right_3.jpg") 15% 73% no-repeat;
     margin-top:10%;
 }
 .grey_main{
@@ -275,7 +275,7 @@ ul{
     width:25%;
     height:3.5em;
     border:none;
-    background:url('../img/Rectangle_10.png') no-repeat ;
+    background:url('../img/Rectangle_10.jpg') no-repeat ;
     background-size:contain;
     font-size: 120%;
     color: #FFFFFF;
@@ -286,7 +286,7 @@ ul{
     width:25%;
     height:3.5em;
     border:none;
-    background:url('../img/Rectangle_11.png') no-repeat ;
+    background:url('../img/Rectangle_11.jpg') no-repeat ;
     background-size:contain;
     font-size: 120%;
     color: #4F7EFB;
@@ -297,6 +297,7 @@ ul{
 
 .more{
     font-family: PingFangSC-Regular;
+    margin-bottom: 10%;
     font-size: 14px;
     color: #39A0E7;
     cursor: pointer;
@@ -310,7 +311,7 @@ ul{
     margin-right:1%;
     float:left;
     list-style: none;
-    background: url('../img/index_word_1.png') no-repeat;
+    background: url('../img/index_word_1.jpg') no-repeat;
     background-size: contain;
 }
 

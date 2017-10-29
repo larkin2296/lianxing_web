@@ -117,7 +117,7 @@ ul{
 .go_top_pic{
     width:2%;
     height:50%;
-    background: url("../img/go_top.png") no-repeat;
+    background: url("../img/go_top.jpg") no-repeat;
     background-size: contain;
     margin:20px auto;
 }

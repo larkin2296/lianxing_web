@@ -78,9 +78,9 @@ p{
     position: relative;
     bottom: 0%;
     left: 0px;
-    background: url(../img/Group_7.png) 100% 0% no-repeat,
-    url(../img/Group_10.png) 54% 101% no-repeat,
-    url(../img/Group_5.png) 22% 101% no-repeat;
+    background: url(../img/Group_7.jpg) 100% 0% no-repeat,
+    url(../img/Group_10.jpg) 54% 101% no-repeat,
+    url(../img/Group_5.jpg) 22% 101% no-repeat;
 }
 .content_fir .fir_pic .fir_pic_grey{
     width: 40%;
@@ -244,7 +244,7 @@ p{
     right: 0px;
     top: 24.7%;
     z-index: 1;
-    background: url(../img/pro_right_1.png) no-repeat;
+    background: url(../img/pro_right_1.jpg) no-repeat;
     background-size: contain;
 }
 .right_pic_cover_1{
@@ -266,7 +266,7 @@ p{
     z-index:50;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
-    background: url("../img/pro_right_2.png") no-repeat;
+    background: url("../img/pro_right_2.jpg") no-repeat;
     background-size: contain;
 }
 .right_pic_cover_2{
@@ -289,7 +289,7 @@ p{
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
 
-    background: url("../img/pro_right_3.png") no-repeat;
+    background: url("../img/pro_right_3.jpg") no-repeat;
     background-size: contain;
 }
 
@@ -471,7 +471,7 @@ p{
     line-height:150%;
 }
 #fiv_right{
-    background: url('../img/fiv_right.png') no-repeat;
+    background: url('../img/fiv_right.jpg') no-repeat;
 }
 #fiv_right p{
     font-family: Seravek-ExtraLight;

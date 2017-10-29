@@ -76,7 +76,7 @@ p{
 .main_list_left .check{
     width:21px;
     height:21px;
-    background: url('../img/check_no.png') no-repeat;
+    background: url('../img/check_no.jpg') no-repeat;
     float:left;
 }
 .main_list_left .get_pass{
@@ -99,7 +99,7 @@ p{
     width:200px;
     height:60px;
     margin-top:100px;
-    background: url('../img/login_in.png') no-repeat;
+    background: url('../img/login_in.jpg') no-repeat;
     background-size: 200px 60px;
     cursor: pointer;
 }
@@ -115,7 +115,7 @@ p{
 .main_list_right #facebook{
     width:398px;
     height:62px;
-    background: url('../img/facebook.png') no-repeat;
+    background: url('../img/facebook.jpg') no-repeat;
     margin-left:98px;
     margin-top:93px;
     line-height:62px;
@@ -128,7 +128,7 @@ p{
 .main_list_right #google{
     width:398px;
     height:62px;
-    background: url('../img/google.png') no-repeat;
+    background: url('../img/google.jpg') no-repeat;
     margin-left:98px;
     margin-top:40px;
     line-height:62px;
@@ -142,7 +142,7 @@ p{
     width:200px;
     height:60px;
     margin-top:100px;
-    background: url('../img/zhuce.png') no-repeat;
+    background: url('../img/zhuce.jpg') no-repeat;
     background-size: 200px 60px;
     cursor: pointer;
 }
