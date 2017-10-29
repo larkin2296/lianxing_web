@@ -11,5 +11,14 @@ class Index extends Controller
         return $this->fetch();
         //$this->display();		
 	}
+    public function index_404(){
 
+        return $this->fetch();
+        //$this->display();
+    }
+    public function download(){
+
+        return $this->fetch();
+        //$this->display();
+    }
 }

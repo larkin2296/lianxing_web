@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" href="__static__/css/about.css" rel="stylesheet" />
+    <script src="__static__/js/jquery.min.js" ></script>
+    <title>关于我们</title>
+</head>
+<body>
+{include file='index/index_top'}
+<div class="about_title">
+    <p>钱包下载&HCChain浏览器</p>
+</div>
+<div class="download_center">
+    <div class="download_center_main">
+        <a href="" >HCChain浏览器</a><br/>
+        <a href="" >Windows钱包下载</a><br/>
+        <a href="" >Mac钱包下载</a>
+    </div>
+</div>
+{include file='index/index_bottom'}
+</body>
+</html>
+<script>
+    var html = document.documentElement;
+    function fontS(){
+        // 获取 html 的宽
+        var hW = html.offsetWidth;
+        // 计算字体大小，这里是 html 宽的五十分之一
+        var hS = hW / 120;
+        // 给刚开始时的 html 设置字体大小
+        html.style.fontSize = hS + "px";
+    }
+    // 当窗口大小改变时执行函数
+    fontS();
+    window.onresize = function(){
+        location.reload();
+        fontS();
+    }
+</script>

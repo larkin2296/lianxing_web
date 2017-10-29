@@ -417,7 +417,7 @@ select {
 }
 .but_1{
     width:25%;
-    height:4em;
+    height:3.5em;
     border:none;
     background:url('../img/Rectangle_10.png') no-repeat ;
     background-size:contain;
@@ -428,7 +428,7 @@ select {
 }
 .but_2{
     width:25%;
-    height:4em;
+    height:3.5em;
     border:none;
     background:url('../img/Rectangle_11.png') no-repeat ;
     background-size:contain;
