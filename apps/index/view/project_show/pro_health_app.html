@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link type="text/css" href="__static__/css/projectshow.css" rel="stylesheet"/>
+    <script src="__static__/js/jquery.min.js" ></script>
 </head>
 <body>
 {include file='index/index_top'}
 <div class="app_first">
     <div class="app_first_word">
         <p>Feel a modern </p>
-        <p style="padding-bottom:50px;">touch</p>
+        <p style="padding-bottom:10%;">touch</p>
         追踪健身记录，测量心率活动数据，密切关注自己的健康状况。<br/>
         Hcc Watch Series 1 搭载双核处理器和 watchOS 4 强大的<br/>
         新功能，让这一切在转瞬之间就能实现。<br/>
@@ -42,24 +43,24 @@
         <li><img src="__static__/img/t_4.png" /><div>Fusce congue</div></li>
     </div>
     <div class="app_thr_bot">
-        <input type="image" src="__static__/img/t_icon_1.png" style="padding-left:80px;"/>
-        <input type="image" src="__static__/img/t_icon_2.png" style="padding-left:30px;"/>
+        <input type="image" src="__static__/img/t_icon_1.png" style="padding-left:47%;width:10%"/>
+        <input type="image" src="__static__/img/t_icon_2.png" style="padding-left:18%;width:10%"/>
         <img src="__static__/img/t_b_1.png" />
     </div>
 </div>
 <div class="app_for">
-<p style="padding-top:160px;">Hcc CareChain Watch</p>
+<p style="padding-top:13.8%;">Hcc CareChain Watch</p>
     <p>Intelligent detection protects your health</p>
     <img src="__static__/img/for_but.png" />
 </div>
 <div class="app_fiv">
 <li id="fiv_left">
-    <p style="padding-top:40px;">Hcc Health</p>
+    <p style="padding-top:8%;">Hcc Health</p>
     <p>CareChain Watch</p>
     <img src="__static__/img/w_3.png" />
 </li>
     <li id="fiv_center">
-        <p style="padding-top:148px;">If you have any </p>
+        <p style="padding-top:10%;">If you have any </p>
         <p>requirements,</p>
         <p>please feel free to </p>
         <p style="padding-bottom:40px;">contact us</p>
@@ -76,3 +77,22 @@
 {include file='index/index_bottom'}
 </body>
 </html>
+<script>
+    var html = document.documentElement;
+
+    // 封装一个函数
+    function fontS(){
+        // 获取 html 的宽
+        var hW = html.offsetWidth;
+        // 计算字体大小，这里是 html 宽的五十分之一
+        var hS = hW / 120;
+        // 给刚开始时的 html 设置字体大小
+        html.style.fontSize = hS + "px";
+    }
+    // 当窗口大小改变时执行函数
+    fontS();
+    window.onresize = function(){
+        location.reload();
+        fontS();
+    }
+</script>
