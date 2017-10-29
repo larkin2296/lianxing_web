@@ -7,6 +7,15 @@ ul{
     padding:0px;
     margin:0px;
 }
+p{
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
 select {
     /*统一边框*/
     border: none;
@@ -46,36 +55,38 @@ select {
     background: url('../img/forum_title.png') no-repeat;
     background-size:cover;
     font-family: PingFangSC-Light;
-    font-size: 18px;
+    font-size: 110%;
     color: #8A8A8A;
     margin:2.7% 20.3%;
 }
 .forum_left_title li{
-    width:11.7%;
+    width:12.7%;
     height:100%;
     float:left;
     list-style: none;
-    line-height:450%;
+    margin-top:3%;
     margin-left:3%;
 }
 .forum_left_title li img{
+    width:15%;
     vertical-align: middle;
     padding-right:10%;
 }
 .forum_left_title_right{
     width:11%;
     height:100%;
-    line-height:600%;
+    line-height:500%;
     float: right;
     margin-right: 4.4%;
 }
 .forum_left_title_right img{
+    width:10%;
     margin-right: 10%;
 }
 .forum_left_title select{
     width:65%;
     font-family: PingFangSC-Light;
-    font-size: 18px;
+    font-size: 110%;
     color: #234EBF;
 }
 .forum_left_label{
@@ -91,51 +102,123 @@ select {
     height:100%;
     margin-left:3.5%;
     font-family: PingFangSC-Light;
-    font-size: 14px;
+    font-size: 90%;
     color: #979797;
-    line-height:360%;
     text-align: center;
+    line-height:300%;
 }
 .forum_left_label_active{
     color: #ffffff;
-    background-color: #386EFE;;
+    background-color: #386EFE;
 }
 .forum_left_label img{
     width:8.2%;
     margin-left:2%;
     vertical-align: middle;
 }
+
 .forum_article{
     width:100%;
-    height:auto;
+    height:100%;
     min-height:1157px;
-    overflow: scroll;
+    overflow: hidden;
+    margin-top:5%;
 }
 .forum_article li{
     width:71.9%;
-    height:33.2%;
+    height:21em;
+    margin-left:21%;
+    list-style: none;
 }
 .forum_article_date{
     width:10%;
     height:2em;
     background: url('../img/forum_date_1.png') no-repeat;
     background-size: contain;
+    float:left;
+    line-height:2em;
+    font-family: PingFangSC-Thin;
+    font-size: 70%;
+    color: #323232;
 }
 .forum_article_pic{
     width:1.5%;
     height:1em;
     background: url('../img/forum_combine.png') no-repeat;
     background-size: contain;
+    float:left;
+    margin-top: 1%;
+    margin-left: 10%;
 }
 .forum_article_from{
-    width:20.3%;
+    width:40.3%;
     height:2%;
+    float:left;
+    margin-left: 8%;
 }
+.forum_article_from img{
+    margin-left: 10%;
+    margin-right: 2%;
+}
+.forum_article_from span{
+    font-family: PingFangSC-Light;
+    font-size: 90%;
+    color: #979797;
+}
+.forum_article_right{
+    width: 100%;
+    height: 117%;
+}
+.forum_article_main{
+    width: 70%;
+    height: 80%;
+    margin-left: 20.5%;
+    float: left;
+    padding-left: 9%;
+    border-left: 3px solid #E8E8E8;
+    line-height:200%;
+}
+.forum_article_main p{
+    margin-top:5%;
+    font-family: PingFangSC-Regular;
+    font-size: 200%;
+    color: #000000;
+    margin-bottom:2%;
+}
+.forum_article_content{
+    width:100%;
+    height:9em;
+}
+.forum_article_bottom{
+    width:100%;
+    height:5em;
+    line-height:5em;
+    font-family: PingFangSC-Light;
+    font-size: 90%;
 
-
-
-
-
+}
+.forum_article_bottom_left{
+    width:80%;
+    height:100%;
+    float:left;
+    color: #979797;
+}
+.forum_article_bottom_left img{
+    width:5%;
+    margin-left:5%;
+    margin-right:2%;
+}
+.forum_article_bottom_right{
+    width: 20%;
+    height: 100%;
+    float: left;
+    color: #386FFD;
+}
+.forum_article_bottom_right img{
+    width:15%;
+    vertical-align: middle;
+    margin-right:10%;
+}
 
 
 
@@ -155,15 +238,125 @@ select {
 
 .forum_right{
     float:left;
-    width:38.6%;
+    width:38.4%;
     height:100%;
+    border-left:2px solid  #E2E2E2;
 }
-
-
-
-
-
-
+.forum_right_search{
+    width:95%;
+    height:8em;
+    margin-left:5%;
+    border-bottom: 2px solid  #E2E2E2;
+}
+.forum_right_search p{
+    font-family: PingFangSC-Regular;
+    font-size: 110%;
+    color: #000000;
+    letter-spacing: 10px;
+    margin-top:5%;
+}
+.forum_right_search .search{
+    width:62.8%;
+    height:35.8%;
+    border:none;
+    margin-top:2%;
+}
+.forum_right_about{
+    width:95%;
+    height:20em;
+    margin-left:5%;
+    border-bottom: 2px solid  #E2E2E2;
+    font-family: PingFangSC-Light;
+    font-size: 100%;
+    color: #888888;
+    line-height:200%;
+}
+.forum_right_about p{
+    font-family: PingFangSC-Regular;
+    font-size: 110%;
+    color: #000000;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.forum_right_pinglun{
+    width:95%;
+    height:21em;
+    margin-left:5%;
+    border-bottom: 2px solid  #E2E2E2;
+}
+.forum_right_pinglun_top{
+    width:100%;
+    height:2em;
+}
+.forum_right_pinglun p{
+    font-family: PingFangSC-Regular;
+    font-size: 110%;
+    color: #000000;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.forum_right_pinglun li{
+    list-style: none;
+}
+.forum_article_date_1{
+    width:10%;
+    height:2em;
+    background: url('../img/forum_date_2.png') no-repeat;
+    background-size: contain;
+    float:left;
+    line-height:2em;
+    font-family: PingFangSC-Thin;
+    font-size: 70%;
+    margin-left:5%;
+    color: #323232;
+}
+.forum_article_pic_1 {
+    width: 1.5%;
+    height: 1em;
+    background: url(../img/forum_combine.png) no-repeat;
+    background-size: contain;
+    float: left;
+    margin-top: 1%;
+}
+.forum_right_pinglun_center{
+    width: 100%;
+    height: 2.5em;
+    margin-left: 0.5%;
+    font-family: PingFangSC-Regular;
+    font-size: 80%;
+    color: #ACACAC;
+    border-left: 2px solid #E2E2E2;
+    margin-top: -1.5%;
+    padding-top: 1.5%;
+}
+.forum_right_pinglun_center img{
+    margin-left:2%;
+}
+.pinglun_user{
+    color:#646464;
+}
+.pinglun_from{
+    color: #386FFD;
+}
+.forum_right_bottom{
+    width:95%;
+    margin-left:5%;
+}
+.forum_right_bottom p{
+    font-family: PingFangSC-Regular;
+    font-size: 110%;
+    color: #000000;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.forum_right_bottom li{
+    list-style: none;
+    width:100%;
+    height:2em;
+}
+.forum_right_bottom li img{
+    margin-right:5%;
+}
 
 
 

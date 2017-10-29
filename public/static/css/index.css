@@ -299,6 +299,7 @@ ul{
     font-family: PingFangSC-Regular;
     font-size: 14px;
     color: #39A0E7;
+    cursor: pointer;
 }
 .more img{
     margin-left:1%;
