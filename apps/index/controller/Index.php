@@ -21,4 +21,7 @@ class Index extends Controller
         return $this->fetch();
         //$this->display();
     }
+    public function hope(){
+        return $this->fetch();
+    }
 }

@@ -1,0 +1,50 @@
+body,html{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+.top_logo{
+    width:13.5%;
+    height:7.7%;
+    background: url('../img/logo_oother.png')no-repeat;
+    background-size: contain;
+    margin-left:8.3%;
+    margin-top:9.2%;
+}
+.center{
+    width:62.1%;
+    height:24.4%;
+    margin:9.4% auto;
+}
+.center_logo{
+    width: 31.2%;
+    height:100%;
+    float:left;
+}
+.center_logo img{
+    width:100%;
+}
+.center_center{
+    width:60%;
+    height:100%;
+    float:left;
+    margin-left:8%;
+}
+.go_back{
+    width:30%;
+    height:7.7%;
+    margin:4% 40%;
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 2px;
+    line-height: 100%;
+    text-align: center;
+    float:left;
+}
+.go_back img{
+    width:6%;
+    vertical-align: middle;
+    margin-left:5%;
+}
