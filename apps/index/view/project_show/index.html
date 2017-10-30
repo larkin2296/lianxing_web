@@ -14,8 +14,7 @@
     区块链引人关注之处在于，能够在网络中建立点对点之间可靠的信任，使得价值传递过程去除了中介的干扰<br />
     既公开信息又保护隐私，既共同决策又保护个体权益，这种机制提高 了价值交互的效率并降低了成本。
     <div class="two_button">
-        <input type="button" value="" style="background:url('__static__/img/Group_4.jpg') no-repeat;background-size: contain;float: left;"/>
-        <input type="button" value="" style="background:url('__static__/img/Group_153.jpg') no-repeat;background-size: contain;float:right;"/>
+        <input type="button" value="" class='go_start' style="background:url('__static__/img/Group_4.jpg') no-repeat;background-size: contain;float: left;margin-left: 31%;"/>
     </div>
     <div class="fir_pic">
     </div>
@@ -104,6 +103,7 @@
 <script src="__static__/js/jquery.min.js" ></script>
 <script src="__static__/js/cover.js" ></script>
 <script>
+    $('.bottom').css('margin-top','0px');
     var html = document.documentElement;
 
     // 封装一个函数
@@ -121,4 +121,8 @@
         location.reload();
         fontS();
     }
+    $('.go_start').click(function(){
+        var zz = $('.content_fir').height();
+        $("html,body").animate({scrollTop:zz},1000);
+    })
 </script>

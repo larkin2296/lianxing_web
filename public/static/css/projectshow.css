@@ -1,3 +1,7 @@
+html{
+    width:100%;
+    height: 100%;
+}
 body{
     width:100%;
     height: 100%;
@@ -296,13 +300,16 @@ p{
 
 
 .app_first{
-    width:100%;
-    height: 80em;
+    width: 100%;
+    height: 140%;
     background-image: linear-gradient(-180deg, #F8FAFF 0%, #F2F5FB 100%);
+    overflow: hidden;
 }
 .app_sec{
     width: 100%;
     height: 68.8em;
+    position: relative;
+    z-index: 99;
 }
 .app_thr{
     width:100%;
@@ -322,32 +329,30 @@ p{
     height:51.4em;
 }
 .f_p_1{
-    width: 41.4%;
-    height: 126.8%;
+    width: 40.4%;
     position: absolute;
     left: 59.5%;
     top: 15.3%;
+    z-index: 1
 }
 .f_p_2{
     width: 10.14%;
-    height: 84%;
     position: absolute;
     left: 90.7%;
-    top: 8.4%;
+    top: 5.4%;
 }
 .f_p_3{
-    width: 21.4%;
-    height: 41.5%;
+    width: 17.4%;
     position: absolute;
-    left: 79.6%;
-    top: 100.6%;
+    left: 82.6%;
+    top: 102.6%;
+    z-index: 1
 }
 .f_p_4{
     width: 33.85%;
-    height: 9.5%;
     position: absolute;
     left: 60.85%;
-    top: 8.4%;
+    top: 7.4%;
 }
 .app_first_word{
     width: 29.5%;
@@ -358,7 +363,6 @@ p{
     font-size: 125%;
     line-height: 150%;
     color: #686868;
-    overflow: hidden;
 }
 .app_first_word p{
     font-size: 300%;
