@@ -304,6 +304,7 @@ p{
     height: 140%;
     background-image: linear-gradient(-180deg, #F8FAFF 0%, #F2F5FB 100%);
     overflow: hidden;
+    position: relative;
 }
 .app_sec{
     width: 100%;
@@ -332,27 +333,27 @@ p{
     width: 40.4%;
     position: absolute;
     left: 59.5%;
-    top: 15.3%;
+    bottom:0px;
     z-index: 1
 }
 .f_p_2{
     width: 10.14%;
     position: absolute;
     left: 90.7%;
-    top: 5.4%;
+    top:0px;
 }
 .f_p_3{
     width: 17.4%;
     position: absolute;
     left: 82.6%;
-    top: 102.6%;
+    bottom:0px;
     z-index: 1
 }
 .f_p_4{
     width: 33.85%;
     position: absolute;
     left: 60.85%;
-    top: 7.4%;
+    top:0px;
 }
 .app_first_word{
     width: 29.5%;
