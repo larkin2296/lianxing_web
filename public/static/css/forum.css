@@ -122,8 +122,8 @@ select {
 
 .forum_article{
     width:100%;
-    height:100%;
-    min-height:1157px;
+    height:auto;
+
     overflow: hidden;
     margin-top:5%;
 }
