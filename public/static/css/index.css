@@ -153,7 +153,7 @@ ul{
     height:auto;
     margin:0px;
     padding:0px;
-    font-family: PingFangSC-Thin;
+    font-family: PingFangSC-Light;
     font-size: 125%;
     color: #000000;
 }
@@ -188,7 +188,7 @@ ul{
     left:57.5%;
 }
 .htm_main p{
-    font-family: PingFangSC-Light;
+    font-family: PingFangSC-Regular;
     font-size: 170%;
     color: #000000;
 }

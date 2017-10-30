@@ -3,6 +3,14 @@ ul{
     padding:0px;
     height:100%;
 }
+@font-face {
+    font-family: PingFangSC-Light;
+    src: url('font/PingFang Light.ttf');
+}
+@font-face {
+    font-family:  PingFangSC-Regular;
+    src: url('font/PingFang-SC-Regular.otf');
+}
 .top{
     width:100%;
     min-width:1280px;
