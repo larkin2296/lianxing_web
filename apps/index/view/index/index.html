@@ -231,7 +231,12 @@
         $(window).scrollTop(0);
         $('body').animate({scrollTop:'0'},500);
         $(".center_pic").mousemove(function(e) {
-
+            $('.main_pic').css({
+                transition: ''
+            });
+            $('.main_pic_1').css({
+                transition: ''
+            });
             var offset = $(this).offset();
             var relativeX = (e.pageX - offset.left);
             var relativeY = (e.pageY - offset.top);
@@ -255,6 +260,16 @@
         $("."+a).css('top', k+(top-j)*i+'px');
         console.log(top);
     }
+    $('.center_pic').mouseleave(function(){
+        $('.main_pic').css({
+            transform: 'rotateX(0deg) rotateY(0deg) rotateZ(0deg)',
+            transition: 'all 1s'
+        });
+        $('.main_pic_1').css({
+            transform: 'rotateX(0deg) rotateY(0deg) rotateZ(0deg)',
+            transition: 'all 1s'
+        });
+    })
     $(window).scroll(function() {
         var x = document.body.clientHeight;
         var top = $(document).scrollTop();
