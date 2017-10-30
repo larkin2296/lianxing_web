@@ -21,6 +21,11 @@ ul{
     position: relative;
     z-index:200;
 }
+.top img{
+    width: 12%;
+    margin-top: 0.5%;
+    margin-left: 7%;
+}
 .top span{
     font-size:180%;
     font-weight: 700;
