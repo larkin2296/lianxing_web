@@ -145,6 +145,7 @@ ul{
     position: relative;
     left: -48%;
     top: -1%;
+    border:1px solid #D5D5D5;
 }
 /*Part 2*/
 .htm_main{
@@ -233,7 +234,7 @@ ul{
     width:41.7%;
     position: absolute;
     top:60.4%;
-    left:32.9%;
+    left:43.9%;
 }
 /*Part3*/
 .luntan{
@@ -307,6 +308,7 @@ ul{
     font-size: 14px;
     color: #39A0E7;
     cursor: pointer;
+    margin-top:1%;
 }
 .more img{
     margin-left:1%;
