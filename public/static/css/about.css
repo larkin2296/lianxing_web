@@ -29,6 +29,18 @@ p{
     color: #FFFFFF;
     letter-spacing: 0;
 }
+.down_title{
+    width: 100%;
+    height: 14%;
+    background: #4F7EFB;
+    text-align: center;
+    /* line-height: 600%; */
+    font-family: PingFangSC-Regular;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding-top: 3%;
+}
 .about_pic{
     width:100%;
     height:51.9em;

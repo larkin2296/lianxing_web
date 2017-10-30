@@ -13,7 +13,7 @@
         <p style="font-size: 250%;color: #1951FD;letter-spacing: 13.89px;">404  页面出现问题</p>
         <p style="font-size: 150%;color: #B4B4B4;letter-spacing: 1.87px;line-height: 100%;">error, please wait</p>
 
-        <p style="font-size: 160%;color: #000000;letter-spacing: 0;line-height: 100%;">10s之后页面会自动跳转到首页</p>
+        <p style="font-size: 160%;color: #000000;letter-spacing: 0;line-height: 100%;">5s之后页面会自动跳转到首页</p>
     </div>
 </div>
 <div class="go_back">
@@ -23,6 +23,11 @@
 </html>
 <script src="__static__/js/jquery.min.js" ></script>
 <script>
+    $(document).ready(function(){
+        setTimeout(function(){
+            location.href="__back__";
+        },5000);
+    })
     var html = document.documentElement;
 
     // 封装一个函数
@@ -40,4 +45,7 @@
         location.reload();
         fontS();
     }
+    $('.go_back').click(function(){
+        location.href='__back__';
+    })
 </script>

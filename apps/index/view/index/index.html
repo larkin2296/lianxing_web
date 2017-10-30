@@ -124,7 +124,7 @@
                 配套设备落后等问题，市场对康复服务的需求量与日俱增，康复产业发展<br />
                 空间巨大。此外，大力发展康复医疗，能有效利用医疗资源，分流亚急性<br />
                 期和慢病对大医院的压力，最终实现降低医疗费用的目的 … …
-                <div class="more">查看更多<img src="__static__/img/back.jpg" /><br/><br />
+                <div class="more forum">查看更多<img src="__static__/img/back.jpg" /><br/><br />
                     <li></li>
                     <li></li>
                     <li></li>
@@ -139,7 +139,7 @@
                 机器人和手术机器人行业规模到2021年将分别达到32亿美元与200亿美元，<br/>
                 年均复合增速分别为46.6%、29.9%，前者增速更快。“国外手术机器人市场份额和技术壁垒相对较高，<br/>
                 结合我国老龄化人口机构来看，康复机器人前景更为广阔。”
-                <div class="more">查看更多<img src="__static__/img/back.jpg" /><br/><br />
+                <div class="more forum">查看更多<img src="__static__/img/back.jpg" /><br/><br />
                     <li></li>
                     <li></li>
                     <li></li>
@@ -166,7 +166,7 @@
                 例如区块的根哈希及其 API(应用程序接 口)对外公开，API 可允许<br/>
                 外界用来作有限次数的查询和获取区块链状态的信息<br/>
                 这些区块链可视为“部分去中心化”
-                <div class="more">查看更多<img src="__static__/img/back.jpg" /></div>
+                <div class="more down">查看更多<img src="__static__/img/back.jpg" /></div>
             </div>
         </div>
         <!-- 第三部分 -->
@@ -182,7 +182,7 @@
                 再加上相应的安全策略、安全规范，形成完整的安全保证体系，<br/>
                 保证系统数 据不被非法入侵者破坏和盗用，<br/>
                 并保证数据的一致性
-                <div class="more">查看更多<img src="__static__/img/back.jpg" /></div>
+                <div class="more down">查看更多<img src="__static__/img/back.jpg" /></div>
             </div>
             <img src="__static__/img/Group_30.jpg" class="htm_main_thr_pic_1" />
             <img src="__static__/img/Group_32.jpg" class="htm_main_thr_pic_2" />
@@ -225,6 +225,17 @@
         $('.meau_list').eq(0).addClass('active');
         $(window).scrollTop(0);
         $('body').animate({scrollTop:'0'},500);
+//        if($('.jump').val() == 'go'){
+//            $('.meau_list a,.meau_list').css('color','#7D7D7D')
+//            $('.meau_list').removeClass('active');
+//            $('.meau_list').eq(1).css('color','#ffffff');
+//            $('.meau_list').eq(1).addClass('active');
+//            var z = $('#grey_main').offset().top;
+//            var zz = $('#grey_main').height();
+//            var k = (z+zz)/2666;
+//            $("html,body").animate({scrollTop:2700*k},1000);
+//            $('.jump').val('');
+//        }
         $(".center_pic").mousemove(function(e) {
             $('.main_pic').css({
                 transition: ''
@@ -330,7 +341,10 @@
 //        var k = (z+zz)/2666;
 //        $("html,body").animate({scrollTop:3802*k*1.01},1000);
 //    })
-    $('.more').click(function(){
+    $('.forum').click(function(){
         location.href = '__back__/index.php/index/forum';
+    })
+    $('.down').click(function(){
+        location.href = '__back__/index.php/index/index/download';
     })
 </script>
