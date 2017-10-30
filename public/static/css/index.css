@@ -261,6 +261,8 @@ ul{
     height:19.2em;
     margin-top:710px;
     background-color: #FAFAFA;
+    background: url('../img/luntan.png')no-repeat;
+    background-size: contain;
 }
 
 
@@ -292,10 +294,9 @@ ul{
     line-height: 104px;
 }
 .luntan_button{
-    width:40%;
-    float:left;
-    margin-top:112px;
-    margin-left:9.5%;
+    width: 40%;
+    height: 100%;
+    margin-left: 62.5%;
 }
 .but_1{
     width:22%;
@@ -306,7 +307,7 @@ ul{
     font-size: 120%;
     color: #FFFFFF;
     letter-spacing: 0;
-    margin-top:2%;
+    margin-top: 13%;
 }
 .but_2{
     width:22%;
