@@ -160,11 +160,11 @@ ul{
     left:0px;
 }
 .show_main hr{
-    width: 3%;
+    width: 6%;
     position: relative;
-    left: -48%;
+    left: -47.5%;
     top: -1%;
-    border:1px solid #D5D5D5;
+    border: 1px solid #D5D5D5;
 }
 /*Part 2*/
 .htm_main{
@@ -201,17 +201,21 @@ ul{
     left:50%;
 }
 .htm_main_first_pic_2{
-    width:39.7%;
+    width: 9.7%;
     position: absolute;
-    top:9.8%;
-    left:57.5%;
+    top: 9.8%;
+    left: 65.5%;
 }
 .htm_main p{
     font-family: PingFangSC-Regular;
     font-size: 170%;
     color: #000000;
 }
-
+.htm_main_sec{
+    height: 58em;
+    overflow: hidden;
+    position: relative;
+}
 .htm_main_sec_pic_1{
     width:31%;
     position: absolute;
@@ -219,10 +223,10 @@ ul{
     left:-6%;
 }
 .htm_main_sec_pic_2{
-    width:22.5%;
+    width: 9.5%;
     position: absolute;
-    top:29.3%;
-    left:5.3%;
+    top: 35.3%;
+    left: 22.3%;
 }
 .htm_main_sec_pic_3{
     width:17.7%;
@@ -231,23 +235,30 @@ ul{
     left:24%;
 }
 .htm_main_sec_word{
-    width:auto;
-    margin-left:52.6%;
-    line-height:220%;
-    margin-top:9.5%;
+    /*width: auto;*/
+    /*margin-left: 52.6%;*/
+    /*line-height: 220%;*/
+    /*margin-top: 22.5%;*/
+    /*color: white;*/
+    color: white;
+    width: 18%;
+    position: absolute;
+    top: 28%;
+    left: 60%;
+
 }
 .htm_main_thr{
-    margin-top:32.5%;
+    margin-top:8.5%;
 }
 .htm_main_thr_word{
     margin-left:12.5%;
     line-height:220%;
 }
 .htm_main_thr_pic_1{
-    width:42.4%;
+    width: 9.4%;
     position: absolute;
-    top:50%;
-    left:53.8%;
+    top: 58%;
+    left: 65.8%;
 }
 .htm_main_thr_pic_2{
     width:41.7%;
@@ -255,11 +266,20 @@ ul{
     top:60.4%;
     left:43.9%;
 }
+.sec_grey{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    opacity: 0.6;
+}
 /*Part3*/
 .luntan{
     width:100%;
     height:19.2em;
-    margin-top:710px;
+    margin-top:10%;
     background-color: #FAFAFA;
     background: url('../img/luntan.png')no-repeat;
     background-size: contain;
