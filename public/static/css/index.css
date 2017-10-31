@@ -249,6 +249,8 @@ ul{
 }
 .htm_main_thr{
     margin-top:8.5%;
+    height: 20em;
+    position: relative;
 }
 .htm_main_thr_word{
     margin-left:12.5%;
@@ -257,7 +259,7 @@ ul{
 .htm_main_thr_pic_1{
     width: 9.4%;
     position: absolute;
-    top: 58%;
+    top: 30%;
     left: 65.8%;
 }
 .htm_main_thr_pic_2{
