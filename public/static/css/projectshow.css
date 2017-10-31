@@ -69,14 +69,15 @@ p{
 .fir_pic_1{
     position: absolute;
     left: 19%;
-    bottom: 0px;
+    bottom: -7%;
     width: 27.9%;
  }
 .fir_pic_2{
     position: absolute;
     left: 34%;
     bottom: 0px;
-    width: 37%;
+    width: 33%;
+
 }
 .fir_pic_3{
     position: absolute;
