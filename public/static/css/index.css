@@ -162,7 +162,7 @@ ul{
 .show_main hr{
     width: 6%;
     position: relative;
-    left: -47.5%;
+    left: -47%;
     top: -1%;
     border: 1px solid #D5D5D5;
 }
@@ -237,7 +237,7 @@ ul{
 .htm_main_sec_word{
     /*width: auto;*/
     /*margin-left: 52.6%;*/
-    /*line-height: 220%;*/
+    line-height: 220%;
     /*margin-top: 22.5%;*/
     /*color: white;*/
     color: white;

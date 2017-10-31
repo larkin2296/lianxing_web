@@ -84,27 +84,26 @@
         <div class="grey_list">
             <li>
                 <img src="__static__/img/home_science_icon1.jpg" /><br/>
-                公信度<br/>
+                <span style="font-size: 120%;font-family: PingFangSC-Regular">公信度</span><br/>
                 减轻监管部门取证压力<br/>
                 医疗机构自证清白
             </li>
             <li>
                 <img src="__static__/img/home_science_icon2.jpg" /><br/>
-                可编程<br/>
-                为有特定要求的医疗机构和<br/>医药服务商提供没有负担的进化模型，<br/>
-                医院提供没有负担的进化模型，<br/>
-                实现病历医嘱信息结构化验证和<br/>处方验真
+                <span style="font-size: 120%;font-family: PingFangSC-Regular">可编程</span><br/>
+                为医疗机构和医药服务商<br/>提供没有负担的进化模型<br/>
+                实现病历医嘱信息<br/>结构化验证和处方验真
             </li>
             <li>
                 <img src="__static__/img/home_science_icon3.jpg" /><br/>
-                可追溯<br/>
+                <span style="font-size: 120%;font-family: PingFangSC-Regular">可追溯</span><br/>
                 标准符合合规要求，便于追溯<br/>
                 对病历信息的任何操作都将记踪溯源
             </li>
             <li>
                 <img src="__static__/img/home_science_icon4.jpg" /><br/>
-                分布式存储<br/>
-                提升医疗机构高容错及纠错能力，<br/>
+                <span style="font-size: 120%;font-family: PingFangSC-Regular">分布式存储</span><br/>
+                提升医疗机构高容错及纠错能力<br/>
                 符合区域卫生机构信息共享标准<br/>
             </li>
         </div>
@@ -115,15 +114,15 @@
     <!-- 展示部分 -->
     <div class="htm_main">
         <!-- 第一部分 -->
-        <div class="htm_main_first">
+        <div class="htm_main_first" >
 
             <div class="htm_main_first_fir">
                 <hr />
-                <p>康复医疗产业将迎来更多机遇</p>
-                我国康复医疗产业处于发展初期，面临供给不足、康复机构规模较小、<br />
-                配套设备落后等问题，市场对康复服务的需求量与日俱增，康复产业发展<br />
-                空间巨大。此外，大力发展康复医疗，能有效利用医疗资源，分流亚急性<br />
-                期和慢病对大医院的压力，最终实现降低医疗费用的目的 … …
+                <p>区块链技术助力大健康事业</p>
+                今年来，区块链技术与AI人工智能一道，成为当下最流行的前沿创新科技，<br/>
+                吸引众多企业投入其中进行技术创新实践。其分布式和去信任化的核心理念，<br/>
+                被认为将有助于在大健康领域尤其是公立医疗领域发挥巨大作用。
+
                 <div class="more forum">查看更多<img src="__static__/img/back.jpg" /><br/><br />
                     <li></li>
                     <li></li>
@@ -133,12 +132,10 @@
 
             <div class="htm_main_first_sec">
                 <hr />
-                <p>医工融合推动创新</p>
-                <p>国内康复医疗行业到2020年或达700亿元</p>
-                据Winter Green Research预测，医疗机器人中占据主流的康复<br/>
-                机器人和手术机器人行业规模到2021年将分别达到32亿美元与200亿美元，<br/>
-                年均复合增速分别为46.6%、29.9%，前者增速更快。“国外手术机器人市场份额和技术壁垒相对较高，<br/>
-                结合我国老龄化人口机构来看，康复机器人前景更为广阔。”
+                <p>ICO在国内被叫停，不做背锅侠的区块</p><p>链，却已在医疗走出了第一步</p>
+                9月4日，央行、网信办、工信部、工商总局、银监会、证监会、保监会<br/>
+                等七部门出手正式叫停ICO融资（首次代币发行）。<br/>
+                通知指出，任何组织和个人不得非法从事代币发行融资活动，各类代币发行融资活动应当立即停止。<br/>
                 <div class="more forum">查看更多<img src="__static__/img/back.jpg" /><br/><br />
                     <li></li>
                     <li></li>
@@ -190,7 +187,7 @@
         </div>
 
     </div>
-
+    <a name="gogogo"></a>
     {include file='index/index_bottom'}
 </div>
 
@@ -214,10 +211,31 @@
         location.reload();
         fontS();
     }
+
     $(function() {
+        $('body').keydown(function(e){
+            var e=window.event;
+            if(e.keyCode==116){
+
+                location.href='__back__';
+                return false;
+            }
+        })
         $('.meau_list').eq(0).addClass('active');
         $(window).scrollTop(0);
         $('body').animate({scrollTop:'0'},500);
+        var a = {$go};
+        if(a == 1){
+            console.log(111111);
+            $('.meau_list a,.meau_list').css('color','#7D7D7D')
+            $('.meau_list').removeClass('active');
+            $('.meau_list').eq(1).css('color','#ffffff');
+            $('.meau_list').eq(1).addClass('active');
+            var z = $('#grey_main').offset().top;
+            var zz = $('#grey_main').height();
+            var k = (z+zz)/2666;
+            $("html,body").animate({scrollTop:2700*k},1000);
+        }
 //        if($('.jump').val() == 'go'){
 //            $('.meau_list a,.meau_list').css('color','#7D7D7D')
 //            $('.meau_list').removeClass('active');
@@ -318,16 +336,20 @@
     $('.meau_list').eq(0).click(function(){
         $("html,body").animate({scrollTop:0},1000);
     })
-    $('.meau_list').eq(1).click(function(){
-        $('.meau_list a,.meau_list').css('color','#7D7D7D')
-        $('.meau_list').removeClass('active');
-        $('.meau_list').eq(1).css('color','#ffffff');
-        $('.meau_list').eq(1).addClass('active');
-        var z = $('#grey_main').offset().top;
-        var zz = $('#grey_main').height();
-        var k = (z+zz)/2666;
-        $("html,body").animate({scrollTop:2700*k},1000);
-    })
+//    $('.meau_list').eq(1).click(function(){
+//        var a = {$go};
+//        if(a == 1){
+//            console.log(111111);
+//            $('.meau_list a,.meau_list').css('color','#7D7D7D')
+//            $('.meau_list').removeClass('active');
+//            $('.meau_list').eq(1).css('color','#ffffff');
+//            $('.meau_list').eq(1).addClass('active');
+//            var z = $('#grey_main').offset().top;
+//            var zz = $('#grey_main').height();
+//            var k = (z+zz)/2666;
+//            $("html,body").animate({scrollTop:2700*k},1000);
+//        }
+//    })
 //    $('.meau_list').eq(2).click(function(){
 //        var z = $('#grey_main').offset().top;
 //        var zz = $('#grey_main').height();

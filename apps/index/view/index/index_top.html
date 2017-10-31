@@ -20,16 +20,16 @@
                     </ul>
                 </div>
             </li>
-            <li class="meau_list">媒体资讯</li>
+            <li class="meau_list" onclick="go()">媒体资讯</li>
             <li class="meau_list"><a href="__back__/index.php/index/index/download">区块链</a></li>
             <!--<li class="meau_list"><a href="__back__/index.php/index/about/index">关于我们</a></li>-->
             <li class="meau_list"><a href="__back__/index.php/index/forum/index">INFO</a></li>
         </ul>
     </div>
 </div>
-<input type="hidden" class="jump" value="go"/>
 <script src="__static__/js/jquery.min.js" ></script>
 <script>
+
     $('.product_li').mouseover(function(){
         $('.pro_more').css('display','block');
     })
@@ -44,4 +44,8 @@
 //        location.href='__back__/index.php/index';
 //
 //    })
+    function go(){
+            location.href='__back__/index.php/index/index?a=1';
+    }
+
 </script>
