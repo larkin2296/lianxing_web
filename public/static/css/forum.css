@@ -174,7 +174,7 @@ select {
 }
 .forum_article_main{
     width: 70%;
-    height: 80%;
+    height: auto;
     margin-left: 20.5%;
     float: left;
     padding-left: 9%;
@@ -190,7 +190,7 @@ select {
 }
 .forum_article_content{
     width:100%;
-    height:9em;
+    height:auto;
 }
 .forum_article_bottom{
     width:100%;
@@ -216,6 +216,7 @@ select {
     height: 100%;
     float: left;
     color: #386FFD;
+    cursor: pointer;
 }
 .forum_article_bottom_right img{
     width:15%;
@@ -442,4 +443,9 @@ select {
     letter-spacing: 0;
     margin-left:10%;
     line-height:100%;
+}
+.hidden_article{
+    width:100%;
+    height:auto;
+    display: none;
 }
